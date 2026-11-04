@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StepClean Studio — Workshop Perawatan & Restorasi Sepatu Cijantung, Jakarta Timur</title>
-  <meta name="description" content="Workshop perawatan, cuci, unyellowing, dan restorasi sepatu di Cijantung, Jakarta Timur. Pengerjaan manual presisi dengan sabun ber-pH netral dan garansi pengerjaan.">
+  <title>Cuci Sepatu Cijantung — Ekspress Shoes, Bag & Apparel Care (Est. 2014)</title>
+  <meta name="description" content="Cuci Sepatu Cijantung (@cucisepatucijantung). Layanan cuci dan spa sepatu, tas, dan topi premium sejak 2014. Fasilitas Free Pick Up Cijantung, Cibubur, Ciracas, Cipayung, Condet.">
 
-  <!-- Font: Plus Jakarta Sans (Captain Barbershop Standard) -->
+  <!-- Font: Plus Jakarta Sans (Standar Captain Barbershop) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -22,13 +22,13 @@
           },
           colors: {
             brand: {
-              bg: '#171a1c',       /* Matte Dark Charcoal (Captain Barbershop) */
+              bg: '#171a1c',       /* Dark Charcoal Matte Captain Barbershop */
               surface: '#111315',  /* Deep Surface Black */
               card: '#1e2226',     /* Dark Card Surface */
               cardHover: '#252a30',
               border: 'rgba(255, 255, 255, 0.12)',
               gold: '#b18d45',      /* Captain Brass Gold Accent */
-              goldLight: '#d4c099', /* Champagne Tint */
+              goldLight: '#d4c099', /* Champagne Gold */
               goldDark: '#937435',  /* Deep Gold */
               muted: '#999999',
             }
@@ -56,19 +56,13 @@
       overflow-x: hidden;
     }
 
-    /* Captain Barbershop Scroll Reveal Animations [data-anim] */
+    /* Scroll Reveal Animations [data-anim] */
     [data-anim] {
       opacity: 0;
       transform: translate3d(0, 32px, 0);
       transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
       transition-delay: var(--delay, 0ms);
       will-change: opacity, transform;
-    }
-    [data-anim="slide-left"] {
-      transform: translate3d(-32px, 0, 0);
-    }
-    [data-anim="slide-right"] {
-      transform: translate3d(32px, 0, 0);
     }
     [data-anim].in-view {
       opacity: 1;
@@ -154,22 +148,22 @@
 <body class="bg-brand-bg text-[#dadada] antialiased selection:bg-brand-gold selection:text-black">
 
   <!-- ========================================================
-       1. TOP UTILITY BAR (Status Workshop & Kontak Cepat)
+       1. TOP UTILITY BAR (Status Workshop & Free Pick Up Info)
   ======================================================== -->
   <div class="bg-brand-surface text-xs py-2 px-4 border-b border-brand-border text-[#999999]">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
       <div class="flex items-center gap-3">
         <span class="inline-flex items-center gap-1.5 text-brand-goldLight font-medium">
           <span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
-          Workshop Buka Setiap Hari: 09.00 — 20.00 WIB
+          Buka Setiap Hari: 08.00 — 21.00 WIB
         </span>
         <span class="text-white/20 hidden sm:inline">|</span>
-        <span class="hidden sm:inline">Jl. Raya Cijantung, Kec. Pasar Rebo, Jakarta Timur</span>
+        <span class="hidden sm:inline">2 Outlet di Cijantung, Jakarta Timur (Est. 2014)</span>
       </div>
       <div class="flex items-center gap-4 text-xs">
-        <span class="text-slate-400">Layanan Antar-Jemput Radius Jakarta Timur</span>
-        <a href="https://wa.me/6285715410979" target="_blank" rel="noopener noreferrer" class="text-brand-goldLight hover:text-white transition font-semibold">
-          WA: 0857-1541-0979
+        <span class="text-brand-gold font-semibold">★ Free Pick Up: Cijantung, Ciracas, Cibubur, Cipayung, Condet</span>
+        <a href="https://wa.me/6285715410979" target="_blank" rel="noopener noreferrer" class="text-white hover:text-brand-gold transition font-bold">
+          WA Admin: 0857-1541-0979
         </a>
       </div>
     </div>
@@ -182,35 +176,35 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         
-        <!-- Logo Brand & Monogram -->
+        <!-- Official Logo & Brand -->
         <a href="#beranda" class="flex items-center gap-3 group">
-          <div class="w-11 h-11 rounded-lg bg-gradient-to-br from-brand-goldLight to-brand-gold text-black flex items-center justify-center font-extrabold text-base tracking-wider shadow-lg shadow-brand-gold/15 group-hover:scale-105 transition duration-300">
-            SC
+          <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-brand-gold/80 shadow-md shadow-brand-gold/20 group-hover:scale-105 transition duration-300 bg-white">
+            <img src="assets/img/ekspress_laundry_pfp.jpg" alt="Logo Cuci Sepatu Cijantung Ekspress 2014" class="w-full h-full object-cover">
           </div>
           <div class="leading-tight">
-            <span class="text-xl font-extrabold tracking-tight text-white block">StepClean<span class="text-brand-gold">.</span></span>
-            <span class="text-[10px] uppercase font-bold tracking-widest text-brand-goldLight block -mt-0.5">Shoe Care & Restoration</span>
+            <span class="text-lg font-extrabold tracking-tight text-white block">Cuci Sepatu Cijantung<span class="text-brand-gold">.</span></span>
+            <span class="text-[10px] uppercase font-bold tracking-widest text-brand-goldLight block -mt-0.5">Ekspress Shoes & Bag Spa • Est. 2014</span>
           </div>
         </a>
 
         <!-- Desktop Navigation Links -->
         <nav class="hidden md:flex items-center space-x-7 text-sm font-medium text-[#dadada]">
           <a href="#beranda" class="hover:text-brand-gold transition duration-200">Beranda</a>
-          <a href="#layanan" class="hover:text-brand-gold transition duration-200">Katalog Treatment</a>
-          <a href="#standar-kami" class="hover:text-brand-gold transition duration-200">Standar Workshop</a>
-          <a href="#komparasi" class="hover:text-brand-gold transition duration-200">Hasil Pengerjaan</a>
-          <a href="#alur" class="hover:text-brand-gold transition duration-200">Alur Order</a>
+          <a href="#layanan" class="hover:text-brand-gold transition duration-200">Layanan & Harga</a>
+          <a href="#keunggulan" class="hover:text-brand-gold transition duration-200">Keunggulan</a>
+          <a href="#free-pickup" class="hover:text-brand-gold transition duration-200">Free Pick Up</a>
+          <a href="#ulasan" class="hover:text-brand-gold transition duration-200">Testimoni</a>
           <a href="#faq" class="hover:text-brand-gold transition duration-200">FAQ</a>
-          <a href="#lokasi" class="hover:text-brand-gold transition duration-200">Lokasi</a>
+          <a href="#lokasi" class="hover:text-brand-gold transition duration-200">Outlet Kami</a>
         </nav>
 
         <!-- Header CTA Button -->
         <div class="hidden md:flex items-center space-x-4">
-          <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20mau%20konsultasi%20cuci%20sepatu" 
+          <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20order%20cuci%20sepatu/tas" 
              target="_blank" 
              rel="noopener noreferrer"
              class="inline-flex items-center gap-2.5 bg-gradient-to-r from-brand-gold to-brand-goldDark hover:from-brand-goldLight hover:to-brand-gold text-black text-xs uppercase font-extrabold tracking-wider px-6 py-3 rounded-full transition shadow-md shadow-brand-gold/20 active:scale-95">
-            <span>Booking Layanan</span>
+            <span>Free Pick Up WA</span>
             <svg class="w-4 h-4 text-black" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
             </svg>
@@ -233,26 +227,25 @@
     <!-- Mobile Dropdown Menu -->
     <div id="mobile-menu" class="hidden md:hidden border-t border-brand-border bg-brand-surface px-5 py-6 space-y-3.5 shadow-2xl">
       <a href="#beranda" class="mobile-nav-link block text-base font-medium text-white hover:text-brand-gold py-1">Beranda</a>
-      <a href="#layanan" class="mobile-nav-link block text-base font-medium text-white hover:text-brand-gold py-1">Katalog Treatment</a>
-      <a href="#standar-kami" class="mobile-nav-link block text-base font-medium text-white hover:text-brand-gold py-1">Standar Workshop</a>
-      <a href="#komparasi" class="mobile-nav-link block text-base font-medium text-white hover:text-brand-gold py-1">Hasil Pengerjaan</a>
-      <a href="#alur" class="mobile-nav-link block text-base font-medium text-white hover:text-brand-gold py-1">Alur Order</a>
+      <a href="#layanan" class="mobile-nav-link block text-base font-medium text-white hover:text-brand-gold py-1">Layanan & Harga</a>
+      <a href="#keunggulan" class="mobile-nav-link block text-base font-medium text-white hover:text-brand-gold py-1">Keunggulan Workshop</a>
+      <a href="#free-pickup" class="mobile-nav-link block text-base font-medium text-white hover:text-brand-gold py-1">Area Free Pick Up</a>
+      <a href="#ulasan" class="mobile-nav-link block text-base font-medium text-white hover:text-brand-gold py-1">Testimoni Pelanggan</a>
       <a href="#faq" class="mobile-nav-link block text-base font-medium text-white hover:text-brand-gold py-1">FAQ</a>
-      <a href="#lokasi" class="mobile-nav-link block text-base font-medium text-white hover:text-brand-gold py-1">Lokasi Workshop</a>
-      <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20mau%20konsultasi%20cuci%20sepatu" 
+      <a href="#lokasi" class="mobile-nav-link block text-base font-medium text-white hover:text-brand-gold py-1">2 Outlet Cijantung</a>
+      <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20order%20cuci%20sepatu/tas" 
          target="_blank" 
          rel="noopener noreferrer" 
          class="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-brand-gold to-brand-goldDark text-black font-extrabold py-3.5 rounded-full mt-4 text-xs uppercase tracking-wider shadow-md">
-        <span>Booking via WhatsApp</span>
+        <span>Hubungi Admin 0857-1541-0979</span>
       </a>
     </div>
   </header>
 
   <!-- ========================================================
-       3. HERO SECTION DENGAN SLIDER CAROUSEL (Captain Barbershop Style)
+       3. HERO SLIDER DENGAN FOTO ASLI WORKSHOP (Captain Barbershop Style)
   ======================================================== -->
   <section id="beranda" class="relative pt-8 pb-16 md:pt-14 md:pb-24 overflow-hidden border-b border-brand-border">
-    <!-- Subtle gold radial glow in background -->
     <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] gold-glow pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -260,58 +253,57 @@
       <!-- Slider Track Container -->
       <div id="hero-slider-container" class="relative">
         
-        <!-- SLIDE 1: Sneaker Deep Care -->
+        <!-- SLIDE 1: Sepatu Bersih & Rapi (Foto Asli Cuci Sepatu Cijantung) -->
         <div class="hero-slide is-active" data-index="0">
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             
             <div class="lg:col-span-7 text-center lg:text-left">
-              <!-- Kicker -->
               <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-surface border border-brand-border text-brand-goldLight text-xs font-semibold uppercase tracking-wider mb-5">
-                <span class="w-2 h-2 rounded-full bg-brand-gold"></span>
-                Workshop Perawatan Sepatu • Jakarta Timur
+                <span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+                Official Instagram: @cucisepatucijantung
               </div>
 
               <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.12] mb-5">
-                Pengerjaan Manual Presisi. <br>
+                Sepatu Masih Kotor, Kusam, Atau Bau? <br>
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-goldLight via-brand-gold to-brand-goldDark">
-                  Sepatu Terawat Sesuai Bahannya.
+                  Bikin Cling & Nyaman Dipakai Lagi.
                 </span>
               </h1>
 
               <p class="text-base sm:text-lg text-[#a0a5ab] leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8 font-normal">
-                Pencucian tanpa mesin cuci atau deterjen keras. Menggunakan sabun organik ber-pH netral yang aman untuk serat rajut (knit), canvas, maupun lem sol sepatu kesayangan Anda.
+                Detail kecil kayak sepatu kotor bisa langsung nurunin mood dan bikin nggak pede. Kami bersihkan dan rawat sepatu, tas, hingga topi Anda dengan proses aman untuk semua jenis bahan.
               </p>
 
               <!-- Actions -->
               <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
                 <a href="#layanan" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-brand-gold to-brand-goldDark hover:from-brand-goldLight hover:to-brand-gold text-black text-xs uppercase font-extrabold tracking-wider px-8 py-4 rounded-full shadow-lg shadow-brand-gold/15 transition-all duration-200 hover:-translate-y-0.5">
-                  <span>Lihat Katalog & Tarif</span>
+                  <span>Lihat Pricelist Layanan</span>
                   <svg class="w-4 h-4 text-black" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                   </svg>
                 </a>
-                <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20mau%20konsultasi%20cuci%20sepatu" 
+                <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20order%20Free%20Pick%20Up" 
                    target="_blank" 
                    rel="noopener noreferrer"
                    class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-brand-card hover:bg-brand-surface text-white border border-brand-border hover:border-brand-gold text-xs uppercase font-bold tracking-wider px-7 py-4 rounded-full transition-all duration-200">
-                  <span>Konsultasi WhatsApp</span>
+                  <span>Request Free Pick Up</span>
                 </a>
               </div>
             </div>
 
-            <!-- Slide 1 Image -->
+            <!-- Slide 1 Image: FOTO ASLI DARI GOOGLE MAPS CUCI SEPATU CIJANTUNG -->
             <div class="lg:col-span-5 relative">
-              <div class="relative rounded-2xl overflow-hidden border border-brand-border bg-brand-surface shadow-2xl group">
+              <div class="relative rounded-2xl overflow-hidden border border-brand-gold/40 bg-brand-surface shadow-2xl group">
                 <img src="assets/img/cuci_sepatu_cijantung_web.jpg" 
-                     alt="Sneakers Nike Flyknit hasil pengerjaan workshop Cuci Sepatu Cijantung" 
+                     alt="Hasil pengerjaan cuci sepatu asli Cuci Sepatu Cijantung Nike Flyknit" 
                      class="w-full h-[400px] object-cover object-center group-hover:scale-105 transition duration-700 opacity-95">
                 <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
                 <div class="absolute bottom-5 left-5 right-5 bg-brand-surface/90 backdrop-blur-md p-4 rounded-xl border border-brand-border flex items-center justify-between">
                   <div>
-                    <span class="text-[11px] font-bold uppercase tracking-wider text-brand-gold block">Spesialisasi #01</span>
-                    <span class="text-sm font-extrabold text-white block">Sneakers & Daily Shoes</span>
+                    <span class="text-[11px] font-bold uppercase tracking-wider text-brand-gold block">Dokumentasi Asli Workshop</span>
+                    <span class="text-sm font-extrabold text-white block">Nike Flyknit Care</span>
                   </div>
-                  <span class="text-xs font-bold text-black bg-brand-gold px-3 py-1.5 rounded-lg">Estimasi 24–48 Jam</span>
+                  <span class="text-xs font-bold text-black bg-brand-gold px-3 py-1.5 rounded-lg">Hasil Bersih Rapi</span>
                 </div>
               </div>
             </div>
@@ -319,35 +311,92 @@
           </div>
         </div>
 
-        <!-- SLIDE 2: Midsole Unyellowing & De-Oxidation -->
+        <!-- SLIDE 2: Perawatan Tas (Bag Spa) -->
         <div class="hero-slide" data-index="1">
           <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             
             <div class="lg:col-span-7 text-center lg:text-left">
               <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-surface border border-brand-border text-brand-goldLight text-xs font-semibold uppercase tracking-wider mb-5">
                 <span class="w-2 h-2 rounded-full bg-brand-gold"></span>
-                UV Chamber Technology • De-Oksidasi Karet
+                Shoes & Bag Spa Cijantung
               </div>
 
               <h2 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.12] mb-5">
-                Sol Menguning Kembali Cerah. <br>
+                Tas Kesayangan Kusam & Berbau? <br>
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-goldLight via-brand-gold to-brand-goldDark">
-                  Bukan Dicat, Tapi Dideoksidasi.
+                  Kembalikan Warna & Wangi Segarnya.
                 </span>
               </h2>
 
               <p class="text-base sm:text-lg text-[#a0a5ab] leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8 font-normal">
-                Unyellowing dengan formula hidrogen peroksida terukur dan aktivasi lampu UV tertutup. Menghilangkan noda kuning oksidasi tanpa membuat kompon karet sol menjadi getas atau mengelupas.
+                Jangan biarkan tas ransel, totebag, atau tas kulit kesayangan kamu kotor dan menurunkan rasa percaya diri. Kami bersihkan noda debu membandel dan jamur secara mendalam tanpa merusak jahitan.
               </p>
 
               <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
                 <a href="#layanan" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-brand-gold to-brand-goldDark hover:from-brand-goldLight hover:to-brand-gold text-black text-xs uppercase font-extrabold tracking-wider px-8 py-4 rounded-full shadow-lg shadow-brand-gold/15 transition-all duration-200">
-                  <span>Cek Paket Unyellowing</span>
+                  <span>Cek Paket Perawatan Tas</span>
                   <svg class="w-4 h-4 text-black" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                   </svg>
                 </a>
-                <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20mau%20tanya%20treatment%20unyellowing%20sol%20sepatu" 
+                <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20tanya%20layanan%20cuci%20tas" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-brand-card hover:bg-brand-surface text-white border border-brand-border hover:border-brand-gold text-xs uppercase font-bold tracking-wider px-7 py-4 rounded-full transition-all duration-200">
+                  <span>Konsultasi Cuci Tas</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Slide 2 Image: Bag Care -->
+            <div class="lg:col-span-5 relative">
+              <div class="relative rounded-2xl overflow-hidden border border-brand-border bg-brand-surface shadow-2xl group">
+                <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=80" 
+                     alt="Layanan Perawatan Tas Bag Spa Cuci Sepatu Cijantung" 
+                     class="w-full h-[400px] object-cover object-center group-hover:scale-105 transition duration-700 opacity-90">
+                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                <div class="absolute bottom-5 left-5 right-5 bg-brand-surface/90 backdrop-blur-md p-4 rounded-xl border border-brand-border flex items-center justify-between">
+                  <div>
+                    <span class="text-[11px] font-bold uppercase tracking-wider text-brand-gold block">Layanan Spesialis</span>
+                    <span class="text-sm font-extrabold text-white block">Bag Spa & Leather Care</span>
+                  </div>
+                  <span class="text-xs font-bold text-black bg-brand-gold px-3 py-1.5 rounded-lg">Bebas Bau & Jamur</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SLIDE 3: Restorasi Sepatu Favorit Nyaris Pamit -->
+        <div class="hero-slide" data-index="2">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            
+            <div class="lg:col-span-7 text-center lg:text-left">
+              <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-surface border border-brand-border text-brand-goldLight text-xs font-semibold uppercase tracking-wider mb-5">
+                <span class="w-2 h-2 rounded-full bg-brand-gold"></span>
+                Unyellowing • Reglue Sol • Repaint
+              </div>
+
+              <h2 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.12] mb-5">
+                Sepatu Favorit Mulai Nyaris "Pamit"? <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-goldLight via-brand-gold to-brand-goldDark">
+                  Biar Kami Urus, Kamu Tinggal Pakai.
+                </span>
+              </h2>
+
+              <p class="text-base sm:text-lg text-[#a0a5ab] leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8 font-normal">
+                Perawatan sepatu itu investasi kecil yang hasilnya gede. Sol menguning kami de-oksidasi kembali cerah, lem sol copot kami press kuat kembali, dan warna pudar kami repaint rapi.
+              </p>
+
+              <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
+                <a href="#layanan" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-brand-gold to-brand-goldDark hover:from-brand-goldLight hover:to-brand-gold text-black text-xs uppercase font-extrabold tracking-wider px-8 py-4 rounded-full shadow-lg shadow-brand-gold/15 transition-all duration-200">
+                  <span>Lihat Treatment Restorasi</span>
+                  <svg class="w-4 h-4 text-black" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                  </svg>
+                </a>
+                <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20konsultasi%20restorasi%20sepatu" 
                    target="_blank" 
                    rel="noopener noreferrer"
                    class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-brand-card hover:bg-brand-surface text-white border border-brand-border hover:border-brand-gold text-xs uppercase font-bold tracking-wider px-7 py-4 rounded-full transition-all duration-200">
@@ -356,76 +405,19 @@
               </div>
             </div>
 
-            <!-- Slide 2 Image -->
-            <div class="lg:col-span-5 relative">
-              <div class="relative rounded-2xl overflow-hidden border border-brand-border bg-brand-surface shadow-2xl group">
-                <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=900&q=80" 
-                     alt="Restorasi Midsole Unyellowing" 
-                     class="w-full h-[400px] object-cover object-center group-hover:scale-105 transition duration-700 opacity-90">
-                <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
-                <div class="absolute bottom-5 left-5 right-5 bg-brand-surface/90 backdrop-blur-md p-4 rounded-xl border border-brand-border flex items-center justify-between">
-                  <div>
-                    <span class="text-[11px] font-bold uppercase tracking-wider text-brand-gold block">Spesialisasi #02</span>
-                    <span class="text-sm font-extrabold text-white block">Midsole De-Oxidation</span>
-                  </div>
-                  <span class="text-xs font-bold text-black bg-brand-gold px-3 py-1.5 rounded-lg">Hasil Tahan Lama</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- SLIDE 3: Leather & Suede Specialist -->
-        <div class="hero-slide" data-index="2">
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            
-            <div class="lg:col-span-7 text-center lg:text-left">
-              <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-surface border border-brand-border text-brand-goldLight text-xs font-semibold uppercase tracking-wider mb-5">
-                <span class="w-2 h-2 rounded-full bg-brand-gold"></span>
-                Material Sensitif • Leather Balm & Suede Revive
-              </div>
-
-              <h2 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.12] mb-5">
-                Suede & Kulit Asli. <br>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-goldLight via-brand-gold to-brand-goldDark">
-                  Perlakuan Khusus Tanpa Rendam Air.
-                </span>
-              </h2>
-
-              <p class="text-base sm:text-lg text-[#a0a5ab] leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8 font-normal">
-                Suede dibersihkan menggunakan metode dry-foam dan sikat bulu kuda untuk mengembalikan tekstur nap halusnya. Kulit asli dinutrisi dengan conditioner khusus agar tidak kaku atau pecah retak.
-              </p>
-
-              <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
-                <a href="#layanan" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-brand-gold to-brand-goldDark hover:from-brand-goldLight hover:to-brand-gold text-black text-xs uppercase font-extrabold tracking-wider px-8 py-4 rounded-full shadow-lg shadow-brand-gold/15 transition-all duration-200">
-                  <span>Lihat Perawatan Suede & Kulit</span>
-                  <svg class="w-4 h-4 text-black" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                  </svg>
-                </a>
-                <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20mau%20konsultasi%20cuci%20sepatu%20suede%20atau%20kulit" 
-                   target="_blank" 
-                   rel="noopener noreferrer"
-                   class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-brand-card hover:bg-brand-surface text-white border border-brand-border hover:border-brand-gold text-xs uppercase font-bold tracking-wider px-7 py-4 rounded-full transition-all duration-200">
-                  <span>Konsultasi Bahan</span>
-                </a>
-              </div>
-            </div>
-
             <!-- Slide 3 Image -->
             <div class="lg:col-span-5 relative">
               <div class="relative rounded-2xl overflow-hidden border border-brand-border bg-brand-surface shadow-2xl group">
-                <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=900&q=80" 
-                     alt="Suede and Leather Shoe Care" 
+                <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=900&q=80" 
+                     alt="Restorasi Sepatu Unyellowing dan Reglue Cijantung" 
                      class="w-full h-[400px] object-cover object-center group-hover:scale-105 transition duration-700 opacity-90">
                 <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
                 <div class="absolute bottom-5 left-5 right-5 bg-brand-surface/90 backdrop-blur-md p-4 rounded-xl border border-brand-border flex items-center justify-between">
                   <div>
-                    <span class="text-[11px] font-bold uppercase tracking-wider text-brand-gold block">Spesialisasi #03</span>
-                    <span class="text-sm font-extrabold text-white block">Suede & Leather Craft</span>
+                    <span class="text-[11px] font-bold uppercase tracking-wider text-brand-gold block">Restorasi Total</span>
+                    <span class="text-sm font-extrabold text-white block">Unyellowing & Reglue</span>
                   </div>
-                  <span class="text-xs font-bold text-black bg-brand-gold px-3 py-1.5 rounded-lg">Dry Foam Treatment</span>
+                  <span class="text-xs font-bold text-black bg-brand-gold px-3 py-1.5 rounded-lg">Hasil Awet Tahan Lama</span>
                 </div>
               </div>
             </div>
@@ -433,16 +425,14 @@
           </div>
         </div>
 
-        <!-- Slider Controls & Indicators (Captain Barbershop Style) -->
+        <!-- Slider Controls & Indicators -->
         <div class="flex items-center justify-between mt-8 pt-6 border-t border-brand-border/60">
-          <!-- Dots -->
           <div class="flex items-center gap-2.5">
             <button class="hero-dot w-9 h-2 rounded-full bg-brand-gold transition-all duration-300" data-index="0" aria-label="Slide 1"></button>
             <button class="hero-dot w-2.5 h-2 rounded-full bg-white/20 hover:bg-white/40 transition-all duration-300" data-index="1" aria-label="Slide 2"></button>
             <button class="hero-dot w-2.5 h-2 rounded-full bg-white/20 hover:bg-white/40 transition-all duration-300" data-index="2" aria-label="Slide 3"></button>
           </div>
 
-          <!-- Arrows -->
           <div class="flex items-center gap-3">
             <button id="hero-prev" class="w-10 h-10 rounded-full border border-brand-border bg-brand-surface hover:border-brand-gold text-slate-300 hover:text-white flex items-center justify-center transition active:scale-95" aria-label="Sebelumnya">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -459,19 +449,19 @@
 
       </div>
 
-      <!-- 3 Stat Badges Standar Workshop -->
+      <!-- 3 Stat Badges Kredibilitas -->
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 pt-8 border-t border-brand-border text-left" data-anim="slide-bottom">
         <div class="bg-brand-surface p-5 rounded-2xl border border-brand-border">
-          <div class="text-brand-gold font-extrabold text-xl tracking-tight">24–48 JAM</div>
-          <p class="text-xs text-[#999999] mt-1 leading-relaxed">Turnaround pengerjaan teratur dengan status update via WhatsApp.</p>
+          <div class="text-brand-gold font-extrabold text-xl tracking-tight">BERDIRI SEJAK 2014</div>
+          <p class="text-xs text-[#999999] mt-1 leading-relaxed">Lebih dari 10 tahun melayani ribuan pasang sepatu dan tas di Jakarta Timur.</p>
         </div>
         <div class="bg-brand-surface p-5 rounded-2xl border border-brand-border">
-          <div class="text-brand-gold font-extrabold text-xl tracking-tight">100% HAND-WASH</div>
-          <p class="text-xs text-[#999999] mt-1 leading-relaxed">Pembersihan manual memakai sikat bulu halus dan pembersih alami pH 7.</p>
+          <div class="text-brand-gold font-extrabold text-xl tracking-tight">FREE PICK UP</div>
+          <p class="text-xs text-[#999999] mt-1 leading-relaxed">Jemput-antar praktis untuk Cijantung, Ciracas, Cibubur, Cipayung, & Condet.</p>
         </div>
         <div class="bg-brand-surface p-5 rounded-2xl border border-brand-border">
-          <div class="text-brand-gold font-extrabold text-xl tracking-tight">GARANSI CUCI ULANG</div>
-          <p class="text-xs text-[#999999] mt-1 leading-relaxed">Klaim bebas biaya bila hasil pembersihan belum tuntas dalam 48 jam.</p>
+          <div class="text-brand-gold font-extrabold text-xl tracking-tight">GARANSI BERSIH RAPI</div>
+          <p class="text-xs text-[#999999] mt-1 leading-relaxed">Pengerjaan detail & niat, bebas biaya cuci ulang jika ada noda terlewat.</p>
         </div>
       </div>
 
@@ -479,100 +469,102 @@
   </section>
 
   <!-- ========================================================
-       4. INFINITE RUNNING MARQUEE TICKER (Captain Barbershop Standard)
+       4. INFINITE RUNNING MARQUEE TICKER (Captain Barbershop Style)
   ======================================================== -->
   <div class="marquee-container overflow-hidden bg-gradient-to-r from-brand-gold via-brand-goldLight to-brand-gold py-3.5 border-y border-brand-gold/40 select-none shadow-md">
     <div class="marquee-track flex items-center font-extrabold text-black text-xs sm:text-sm tracking-wider uppercase">
-      <!-- Repeated Items for Infinite Seamless Loop -->
       <div class="flex items-center shrink-0">
-        <span class="mx-5">SNEAKERS DEEP CLEAN</span>
+        <span class="mx-5">CUCI SEPATU CIJANTUNG</span>
+        <span class="text-black/40 text-xs">◆</span>
+        <span class="mx-5">EKSPRESS SHOES & BAG SPA</span>
+        <span class="text-black/40 text-xs">◆</span>
+        <span class="mx-5">FREE PICK UP JAKARTA TIMUR</span>
+        <span class="text-black/40 text-xs">◆</span>
+        <span class="mx-5">DEEP CLEANING</span>
         <span class="text-black/40 text-xs">◆</span>
         <span class="mx-5">MIDSOLE UNYELLOWING</span>
         <span class="text-black/40 text-xs">◆</span>
-        <span class="mx-5">SUEDE & NUBUCK SPA</span>
+        <span class="mx-5">PERAWATAN TAS & TOPI</span>
         <span class="text-black/40 text-xs">◆</span>
-        <span class="mx-5">INDUSTRIAL REGLUE PRESS</span>
+        <span class="mx-5">REGLUE PRESS SOL</span>
         <span class="text-black/40 text-xs">◆</span>
-        <span class="mx-5">REPAINT & RECOLORING</span>
+        <span class="mx-5">WA: 0857-1541-0979</span>
         <span class="text-black/40 text-xs">◆</span>
-        <span class="mx-5">NANO WATERPROOFING</span>
-        <span class="text-black/40 text-xs">◆</span>
-        <span class="mx-5">ANTIBACTERIAL DEODORIZER</span>
-        <span class="text-black/40 text-xs">◆</span>
-        <span class="mx-5">WORKSHOP CIJANTUNG JAKARTA TIMUR</span>
+        <span class="mx-5">CIBUBUR • CIRACAS • CIPAYUNG • CONDET</span>
         <span class="text-black/40 text-xs">◆</span>
       </div>
       <div class="flex items-center shrink-0">
-        <span class="mx-5">SNEAKERS DEEP CLEAN</span>
+        <span class="mx-5">CUCI SEPATU CIJANTUNG</span>
+        <span class="text-black/40 text-xs">◆</span>
+        <span class="mx-5">EKSPRESS SHOES & BAG SPA</span>
+        <span class="text-black/40 text-xs">◆</span>
+        <span class="mx-5">FREE PICK UP JAKARTA TIMUR</span>
+        <span class="text-black/40 text-xs">◆</span>
+        <span class="mx-5">DEEP CLEANING</span>
         <span class="text-black/40 text-xs">◆</span>
         <span class="mx-5">MIDSOLE UNYELLOWING</span>
         <span class="text-black/40 text-xs">◆</span>
-        <span class="mx-5">SUEDE & NUBUCK SPA</span>
+        <span class="mx-5">PERAWATAN TAS & TOPI</span>
         <span class="text-black/40 text-xs">◆</span>
-        <span class="mx-5">INDUSTRIAL REGLUE PRESS</span>
+        <span class="mx-5">REGLUE PRESS SOL</span>
         <span class="text-black/40 text-xs">◆</span>
-        <span class="mx-5">REPAINT & RECOLORING</span>
+        <span class="mx-5">WA: 0857-1541-0979</span>
         <span class="text-black/40 text-xs">◆</span>
-        <span class="mx-5">NANO WATERPROOFING</span>
-        <span class="text-black/40 text-xs">◆</span>
-        <span class="mx-5">ANTIBACTERIAL DEODORIZER</span>
-        <span class="text-black/40 text-xs">◆</span>
-        <span class="mx-5">WORKSHOP CIJANTUNG JAKARTA TIMUR</span>
+        <span class="mx-5">CIBUBUR • CIRACAS • CIPAYUNG • CONDET</span>
         <span class="text-black/40 text-xs">◆</span>
       </div>
     </div>
   </div>
 
   <!-- ========================================================
-       5. FEATURED SERVICES & PRICELIST BY TIER (Captain Barbershop Style)
+       5. FEATURED SERVICES & PRICELIST (Sepatu, Tas, Topi & Restorasi)
   ======================================================== -->
   <section id="layanan" class="py-24 bg-brand-surface border-b border-brand-border">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <!-- Section Header -->
       <div class="text-center max-w-2xl mx-auto mb-12" data-anim="slide-bottom">
-        <span class="text-xs font-extrabold tracking-widest text-brand-gold uppercase block mb-2">KATALOG PERAWATAN WORKSHOP</span>
+        <span class="text-xs font-extrabold tracking-widest text-brand-gold uppercase block mb-2">KATALOG PERAWATAN LENGKAP</span>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-3">
-          Pilih Treatment Sesuai Kebutuhan
+          Layanan Cuci Sepatu, Tas & Topi
         </h2>
         <p class="text-[#a0a5ab] text-sm leading-relaxed">
-          Tarif transparan tanpa biaya siluman. Dikerjakan bertahap dengan estimasi waktu dan material pembersih teruji.
+          Harga transparan dan terjangkau untuk kebutuhan harian maupun perawatan barang branded kesayangan Anda.
         </p>
 
-        <!-- Category Filter Tabs (Interactive) -->
+        <!-- Category Filter Tabs -->
         <div class="inline-flex p-1.5 rounded-full bg-brand-card border border-brand-border mt-8 gap-1.5 flex-wrap justify-center">
           <button class="service-tab active px-5 py-2 rounded-full text-xs font-bold transition duration-200 bg-brand-gold text-black" data-filter="all">
             Semua Layanan
           </button>
-          <button class="service-tab px-5 py-2 rounded-full text-xs font-semibold transition duration-200 text-slate-300 hover:text-white" data-filter="clean">
-            Signature Clean
+          <button class="service-tab px-5 py-2 rounded-full text-xs font-semibold transition duration-200 text-slate-300 hover:text-white" data-filter="sepatu">
+            Cuci Sepatu
           </button>
-          <button class="service-tab px-5 py-2 rounded-full text-xs font-semibold transition duration-200 text-slate-300 hover:text-white" data-filter="special">
-            Treatment Khusus
+          <button class="service-tab px-5 py-2 rounded-full text-xs font-semibold transition duration-200 text-slate-300 hover:text-white" data-filter="tas">
+            Cuci Tas & Topi
           </button>
-          <button class="service-tab px-5 py-2 rounded-full text-xs font-semibold transition duration-200 text-slate-300 hover:text-white" data-filter="repair">
+          <button class="service-tab px-5 py-2 rounded-full text-xs font-semibold transition duration-200 text-slate-300 hover:text-white" data-filter="restorasi">
             Restorasi & Sol
           </button>
         </div>
       </div>
 
-      <!-- Services Grid (Captain Barbershop "fs-item" Style) -->
+      <!-- Services Grid -->
       <div id="services-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
         
-        <!-- Service 1: Fast Clean -->
-        <div class="service-card flex flex-col bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold transition-all duration-300 group" data-category="clean" data-anim="slide-bottom" style="--delay: 100ms">
+        <!-- Service 1: Fast Clean Sepatu -->
+        <div class="service-card flex flex-col bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold transition-all duration-300 group" data-category="sepatu" data-anim="slide-bottom" style="--delay: 100ms">
           <div class="flex items-center justify-between mb-4">
             <span class="text-brand-gold font-extrabold text-sm tracking-wider">01.</span>
             <span class="text-[11px] font-semibold text-slate-400 bg-white/5 px-2.5 py-1 rounded-full border border-white/10">1–2 Hari Kerja</span>
           </div>
 
-          <h3 class="text-xl font-bold text-white group-hover:text-brand-gold transition duration-200">Fast Clean</h3>
+          <h3 class="text-xl font-bold text-white group-hover:text-brand-gold transition duration-200">Fast Clean Sepatu</h3>
           <p class="text-xs text-brand-goldLight font-medium mb-3">Sneakers Harian & Noda Ringan</p>
           <p class="text-xs text-[#999999] leading-relaxed mb-6">
-            Pembersihan cepat untuk membersihkan debu, noda tapak luar, dan kotoran jalanan harian tanpa membongkar struktur dalam.
+            Pembersihan cepat untuk membersihkan kotoran jalanan, midsole luar, dan debu harian agar siap dipakai saat weekend.
           </p>
 
-          <!-- Price Badge -->
           <div class="pt-4 border-t border-brand-border/60 mb-6">
             <div class="flex items-baseline gap-1">
               <span class="text-xs font-semibold text-brand-gold">Rp</span>
@@ -581,7 +573,6 @@
             </div>
           </div>
 
-          <!-- Checklist -->
           <ul class="space-y-2.5 text-xs text-[#dadada] mb-8 flex-1">
             <li class="flex items-center gap-2">
               <span class="text-brand-gold font-bold">✓</span>
@@ -589,20 +580,15 @@
             </li>
             <li class="flex items-center gap-2">
               <span class="text-brand-gold font-bold">✓</span>
-              <span>Sikat telapak sol bawah (outsole tread)</span>
+              <span>Sikat telapak sol bawah (outsole)</span>
             </li>
             <li class="flex items-center gap-2">
               <span class="text-brand-gold font-bold">✓</span>
-              <span>Semprotan pewangi & anti-bakteri standar</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-brand-gold font-bold">✓</span>
-              <span>Pengeringan suhu ruang aman untuk lem sol</span>
+              <span>Semprotan pewangi segar anti-bakteri</span>
             </li>
           </ul>
 
-          <!-- Action -->
-          <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20mau%20order%20paket%20Fast%20Clean%20(Rp%2035.000)" 
+          <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20order%20Fast%20Clean%20Sepatu%20(Rp%2035.000)" 
              target="_blank" 
              rel="noopener noreferrer" 
              class="flex items-center justify-between py-3 px-5 rounded-xl text-xs font-bold text-white bg-white/5 border border-white/10 group-hover:bg-brand-gold group-hover:text-black group-hover:border-brand-gold transition duration-200">
@@ -613,9 +599,8 @@
           </a>
         </div>
 
-        <!-- Service 2: Deep Clean (Highlighted Most Popular) -->
-        <div class="service-card relative flex flex-col bg-brand-card rounded-2xl p-7 border-2 border-brand-gold shadow-2xl shadow-brand-gold/10 group" data-category="clean" data-anim="slide-bottom" style="--delay: 200ms">
-          <!-- Featured Badge -->
+        <!-- Service 2: Deep Clean Sepatu (Terfavorit) -->
+        <div class="service-card relative flex flex-col bg-brand-card rounded-2xl p-7 border-2 border-brand-gold shadow-2xl shadow-brand-gold/10 group" data-category="sepatu" data-anim="slide-bottom" style="--delay: 200ms">
           <div class="absolute -top-3 left-1/2 -translate-x-1/2">
             <span class="bg-gradient-to-r from-brand-gold to-brand-goldDark text-black text-[10px] font-extrabold uppercase tracking-widest py-1 px-3.5 rounded-full shadow-md">
               ★ Paling Sering Dipilih
@@ -630,10 +615,9 @@
           <h3 class="text-xl font-bold text-white group-hover:text-brand-gold transition duration-200">Deep Clean Menyeluruh</h3>
           <p class="text-xs text-brand-goldLight font-medium mb-3">Pembersihan Total Luar & Dalam</p>
           <p class="text-xs text-[#999999] leading-relaxed mb-6">
-            Cuci intensif mencakup pembersihan upper, midsole, outsole, pelepasan insole, serta pencucian tali secara terpisah.
+            Pencucian intensif menjangkau bagian upper, midsole, outsole, pelepasan insole dalam, dan pencucian tali secara terpisah.
           </p>
 
-          <!-- Price Badge -->
           <div class="pt-4 border-t border-brand-border/60 mb-6">
             <div class="flex items-baseline gap-1">
               <span class="text-xs font-semibold text-brand-gold">Rp</span>
@@ -642,28 +626,26 @@
             </div>
           </div>
 
-          <!-- Checklist -->
           <ul class="space-y-2.5 text-xs text-[#dadada] mb-8 flex-1">
             <li class="flex items-center gap-2 font-medium text-white">
               <span class="text-brand-gold font-bold">✓</span>
-              <span>Cuci upper bertahap sesuai material kain/mesh</span>
+              <span>Cuci upper bertahap sesuai bahan</span>
             </li>
             <li class="flex items-center gap-2">
               <span class="text-brand-gold font-bold">✓</span>
-              <span>Pembersihan insole bagian dalam & bantalan tumit</span>
+              <span>Pembersihan insole bagian dalam & bau keringat</span>
             </li>
             <li class="flex items-center gap-2">
               <span class="text-brand-gold font-bold">✓</span>
-              <span>Pelepasan & pencucian tali sepatu terpisah</span>
+              <span>Pencucian tali sepatu terpisah</span>
             </li>
             <li class="flex items-center gap-2 text-brand-goldLight font-medium">
               <span class="text-brand-gold font-bold">✓</span>
-              <span>Disinfeksi antibakteri & penetralisir bau keringat</span>
+              <span>Disinfeksi antibakteri & aroma wangi premium</span>
             </li>
           </ul>
 
-          <!-- Action -->
-          <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20mau%20order%20paket%20Deep%20Clean%20(Rp%2055.000)" 
+          <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20order%20Deep%20Clean%20(Rp%2055.000)" 
              target="_blank" 
              rel="noopener noreferrer" 
              class="flex items-center justify-between py-3 px-5 rounded-xl text-xs font-extrabold text-black bg-gradient-to-r from-brand-gold to-brand-goldDark hover:from-brand-goldLight hover:to-brand-gold transition shadow-md shadow-brand-gold/20">
@@ -674,20 +656,117 @@
           </a>
         </div>
 
-        <!-- Service 3: Midsole Unyellowing -->
-        <div class="service-card flex flex-col bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold transition-all duration-300 group" data-category="special" data-anim="slide-bottom" style="--delay: 300ms">
+        <!-- Service 3: Bag Spa & Care (Perawatan Tas) -->
+        <div class="service-card flex flex-col bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold transition-all duration-300 group" data-category="tas" data-anim="slide-bottom" style="--delay: 300ms">
           <div class="flex items-center justify-between mb-4">
             <span class="text-brand-gold font-extrabold text-sm tracking-wider">03.</span>
             <span class="text-[11px] font-semibold text-slate-400 bg-white/5 px-2.5 py-1 rounded-full border border-white/10">3–4 Hari Kerja</span>
           </div>
 
-          <h3 class="text-xl font-bold text-white group-hover:text-brand-gold transition duration-200">Unyellowing De-Oksidasi</h3>
-          <p class="text-xs text-brand-goldLight font-medium mb-3">Midsole Karet & Transparan ICY</p>
+          <h3 class="text-xl font-bold text-white group-hover:text-brand-gold transition duration-200">Bag Spa & Care</h3>
+          <p class="text-xs text-brand-goldLight font-medium mb-3">Tas Ransel, Totebag & Kulit</p>
           <p class="text-xs text-[#999999] leading-relaxed mb-6">
-            Menghilangkan noda kuning akibat paparan sinar matahari dan kelembapan menggunakan formula de-oksidasi & ruang UV.
+            Pembersihan noda kusam, jamur, dan bau apek pada tas kantor, backpack, atau tas selempang dengan formula pelindung bahan.
           </p>
 
-          <!-- Price Badge -->
+          <div class="pt-4 border-t border-brand-border/60 mb-6">
+            <div class="flex items-baseline gap-1">
+              <span class="text-xs font-semibold text-brand-gold">Mulai Rp</span>
+              <span class="text-3xl font-extrabold text-white tracking-tight">45.000</span>
+              <span class="text-xs text-[#999999]">/ tas</span>
+            </div>
+          </div>
+
+          <ul class="space-y-2.5 text-xs text-[#dadada] mb-8 flex-1">
+            <li class="flex items-center gap-2">
+              <span class="text-brand-gold font-bold">✓</span>
+              <span>Pembersihan kompartemen luar & kantong dalam</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-brand-gold font-bold">✓</span>
+              <span>Pemberantasan jamur & bakteri lembap</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-brand-gold font-bold">✓</span>
+              <span>Leather conditioner untuk tas berbahan kulit</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-brand-gold font-bold">✓</span>
+              <span>Wangi segar tahan lama</span>
+            </li>
+          </ul>
+
+          <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20order%20layanan%20Cuci%20Tas" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="flex items-center justify-between py-3 px-5 rounded-xl text-xs font-bold text-white bg-white/5 border border-white/10 group-hover:bg-brand-gold group-hover:text-black group-hover:border-brand-gold transition duration-200">
+            <span>Pilih Cuci Tas</span>
+            <svg class="w-4 h-4 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Service 4: Cap & Topi Cleaning -->
+        <div class="service-card flex flex-col bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold transition-all duration-300 group" data-category="tas" data-anim="slide-bottom" style="--delay: 100ms">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-brand-gold font-extrabold text-sm tracking-wider">04.</span>
+            <span class="text-[11px] font-semibold text-slate-400 bg-white/5 px-2.5 py-1 rounded-full border border-white/10">2–3 Hari Kerja</span>
+          </div>
+
+          <h3 class="text-xl font-bold text-white group-hover:text-brand-gold transition duration-200">Cap & Topi Cleaning</h3>
+          <p class="text-xs text-brand-goldLight font-medium mb-3">Baseball Cap, Snapback, Bucket Hat</p>
+          <p class="text-xs text-[#999999] leading-relaxed mb-6">
+            Cuci noda keringat dan daki pada sweatband topi tanpa merusak lidah visor atau membuat bentuk topi penyok.
+          </p>
+
+          <div class="pt-4 border-t border-brand-border/60 mb-6">
+            <div class="flex items-baseline gap-1">
+              <span class="text-xs font-semibold text-brand-gold">Rp</span>
+              <span class="text-3xl font-extrabold text-white tracking-tight">30.000</span>
+              <span class="text-xs text-[#999999]">/ pcs</span>
+            </div>
+          </div>
+
+          <ul class="space-y-2.5 text-xs text-[#dadada] mb-8 flex-1">
+            <li class="flex items-center gap-2">
+              <span class="text-brand-gold font-bold">✓</span>
+              <span>Pembersihan sweatband lingkar kepala</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-brand-gold font-bold">✓</span>
+              <span>Bentuk mahkota & brim topi tetap terjaga kokoh</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-brand-gold font-bold">✓</span>
+              <span>Deodorizer penetralisir bau keringat</span>
+            </li>
+          </ul>
+
+          <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20order%20Cuci%20Topi" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="flex items-center justify-between py-3 px-5 rounded-xl text-xs font-bold text-white bg-white/5 border border-white/10 group-hover:bg-brand-gold group-hover:text-black group-hover:border-brand-gold transition duration-200">
+            <span>Pilih Cuci Topi</span>
+            <svg class="w-4 h-4 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Service 5: Midsole Unyellowing -->
+        <div class="service-card flex flex-col bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold transition-all duration-300 group" data-category="restorasi" data-anim="slide-bottom" style="--delay: 200ms">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-brand-gold font-extrabold text-sm tracking-wider">05.</span>
+            <span class="text-[11px] font-semibold text-slate-400 bg-white/5 px-2.5 py-1 rounded-full border border-white/10">3–4 Hari Kerja</span>
+          </div>
+
+          <h3 class="text-xl font-bold text-white group-hover:text-brand-gold transition duration-200">Unyellowing De-Oksidasi</h3>
+          <p class="text-xs text-brand-goldLight font-medium mb-3">Khusus Sol Menguning Oksidasi</p>
+          <p class="text-xs text-[#999999] leading-relaxed mb-6">
+            Mengembalikan sol karet yang menguning agar kembali cerah menggunakan formula aktif dan penyinaran khusus tanpa merusak sol.
+          </p>
+
           <div class="pt-4 border-t border-brand-border/60 mb-6">
             <div class="flex items-baseline gap-1">
               <span class="text-xs font-semibold text-brand-gold">Rp</span>
@@ -696,28 +775,22 @@
             </div>
           </div>
 
-          <!-- Checklist -->
           <ul class="space-y-2.5 text-xs text-[#dadada] mb-8 flex-1">
             <li class="flex items-center gap-2">
               <span class="text-brand-gold font-bold">✓</span>
-              <span>Aplikasi formula H2O2 khusus karet sol</span>
+              <span>Formula de-oksidasi khusus karet sol</span>
             </li>
             <li class="flex items-center gap-2">
               <span class="text-brand-gold font-bold">✓</span>
-              <span>Penyinaran UV Chamber tertutup terkontrol</span>
+              <span>Proses terukur, tidak bikin karet getas</span>
             </li>
             <li class="flex items-center gap-2">
               <span class="text-brand-gold font-bold">✓</span>
-              <span>Tidak merusak tekstur atau kelenturan karet sol</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-brand-gold font-bold">✓</span>
-              <span>Sudah termasuk deep clean midsole</span>
+              <span>Termasuk deep clean midsole</span>
             </li>
           </ul>
 
-          <!-- Action -->
-          <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20mau%20order%20paket%20Unyellowing%20(Rp%2050.000)" 
+          <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20order%20Unyellowing%20(Rp%2050.000)" 
              target="_blank" 
              rel="noopener noreferrer" 
              class="flex items-center justify-between py-3 px-5 rounded-xl text-xs font-bold text-white bg-white/5 border border-white/10 group-hover:bg-brand-gold group-hover:text-black group-hover:border-brand-gold transition duration-200">
@@ -728,68 +801,17 @@
           </a>
         </div>
 
-        <!-- Service 4: Leather & Suede Spa -->
-        <div class="service-card flex flex-col bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold transition-all duration-300 group" data-category="special" data-anim="slide-bottom" style="--delay: 100ms">
+        <!-- Service 6: Reglue & Rekat Sol -->
+        <div class="service-card flex flex-col bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold transition-all duration-300 group" data-category="restorasi" data-anim="slide-bottom" style="--delay: 300ms">
           <div class="flex items-center justify-between mb-4">
-            <span class="text-brand-gold font-extrabold text-sm tracking-wider">04.</span>
-            <span class="text-[11px] font-semibold text-slate-400 bg-white/5 px-2.5 py-1 rounded-full border border-white/10">3–4 Hari Kerja</span>
-          </div>
-
-          <h3 class="text-xl font-bold text-white group-hover:text-brand-gold transition duration-200">Leather & Suede Spa</h3>
-          <p class="text-xs text-brand-goldLight font-medium mb-3">Kulit Asli, Nubuck, & Suede</p>
-          <p class="text-xs text-[#999999] leading-relaxed mb-6">
-            Pembersihan kering dry-foam anti air rendaman, pelembap mink balm untuk kulit asli, dan sikat bulu kuda untuk kelembutan nap suede.
-          </p>
-
-          <div class="pt-4 border-t border-brand-border/60 mb-6">
-            <div class="flex items-baseline gap-1">
-              <span class="text-xs font-semibold text-brand-gold">Rp</span>
-              <span class="text-3xl font-extrabold text-white tracking-tight">85.000</span>
-              <span class="text-xs text-[#999999]">/ pasang</span>
-            </div>
-          </div>
-
-          <ul class="space-y-2.5 text-xs text-[#dadada] mb-8 flex-1">
-            <li class="flex items-center gap-2">
-              <span class="text-brand-gold font-bold">✓</span>
-              <span>Dry Foam Cleansing tanpa rendaman air</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-brand-gold font-bold">✓</span>
-              <span>Leather Conditioner menjaga kelembapan agar tidak retak</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-brand-gold font-bold">✓</span>
-              <span>Suede Nap Reviver mengembalikan tekstur beludru halus</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-brand-gold font-bold">✓</span>
-              <span>Lapisan hidrofobik penahan cipratan air</span>
-            </li>
-          </ul>
-
-          <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20mau%20order%20paket%20Leather%20%26%20Suede%20Spa%20(Rp%2085.000)" 
-             target="_blank" 
-             rel="noopener noreferrer" 
-             class="flex items-center justify-between py-3 px-5 rounded-xl text-xs font-bold text-white bg-white/5 border border-white/10 group-hover:bg-brand-gold group-hover:text-black group-hover:border-brand-gold transition duration-200">
-            <span>Pilih Layanan Ini</span>
-            <svg class="w-4 h-4 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-            </svg>
-          </a>
-        </div>
-
-        <!-- Service 5: Reglue & Sole Press -->
-        <div class="service-card flex flex-col bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold transition-all duration-300 group" data-category="repair" data-anim="slide-bottom" style="--delay: 200ms">
-          <div class="flex items-center justify-between mb-4">
-            <span class="text-brand-gold font-extrabold text-sm tracking-wider">05.</span>
+            <span class="text-brand-gold font-extrabold text-sm tracking-wider">06.</span>
             <span class="text-[11px] font-semibold text-slate-400 bg-white/5 px-2.5 py-1 rounded-full border border-white/10">3–5 Hari Kerja</span>
           </div>
 
-          <h3 class="text-xl font-bold text-white group-hover:text-brand-gold transition duration-200">Reglue & Sole Press</h3>
-          <p class="text-xs text-brand-goldLight font-medium mb-3">Sol Copot & Rekat Ulang</p>
+          <h3 class="text-xl font-bold text-white group-hover:text-brand-gold transition duration-200">Reglue & Rekat Sol</h3>
+          <p class="text-xs text-brand-goldLight font-medium mb-3">Sol Sepatu Mangap & Lepas</p>
           <p class="text-xs text-[#999999] leading-relaxed mb-6">
-            Pembersihan residu lem lama, pengasaran mikro, aplikasi lem industri khusus sepatu, dan pengepresan dengan cetakan clamp selama 24 jam.
+            Pembersihan kerak lem lama, aplikasi lem khusus sepatu fleksibel, dan pengepresan agar merekat kuat kembali.
           </p>
 
           <div class="pt-4 border-t border-brand-border/60 mb-6">
@@ -803,23 +825,19 @@
           <ul class="space-y-2.5 text-xs text-[#dadada] mb-8 flex-1">
             <li class="flex items-center gap-2">
               <span class="text-brand-gold font-bold">✓</span>
-              <span>De-bonding pembersihan sisa kerak lem lama</span>
+              <span>Pembersihan residu lem lama</span>
             </li>
             <li class="flex items-center gap-2">
               <span class="text-brand-gold font-bold">✓</span>
-              <span>Lem industri fleksibel tahan air & getaran</span>
+              <span>Lem industri fleksibel tahan air</span>
             </li>
             <li class="flex items-center gap-2">
               <span class="text-brand-gold font-bold">✓</span>
-              <span>Pengepresan presisi dengan mesin press clamp</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-brand-gold font-bold">✓</span>
-              <span>Garansi rekat ulang 30 hari</span>
+              <span>Pengepresan presisi 24 jam</span>
             </li>
           </ul>
 
-          <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20mau%20konsultasi%20lem%20sol%20sepatu%20(Reglue)" 
+          <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20konsultasi%20Reglue%20Sol%20Sepatu" 
              target="_blank" 
              rel="noopener noreferrer" 
              class="flex items-center justify-between py-3 px-5 rounded-xl text-xs font-bold text-white bg-white/5 border border-white/10 group-hover:bg-brand-gold group-hover:text-black group-hover:border-brand-gold transition duration-200">
@@ -830,71 +848,22 @@
           </a>
         </div>
 
-        <!-- Service 6: Repaint & Recoloring -->
-        <div class="service-card flex flex-col bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold transition-all duration-300 group" data-category="repair" data-anim="slide-bottom" style="--delay: 300ms">
-          <div class="flex items-center justify-between mb-4">
-            <span class="text-brand-gold font-extrabold text-sm tracking-wider">06.</span>
-            <span class="text-[11px] font-semibold text-slate-400 bg-white/5 px-2.5 py-1 rounded-full border border-white/10">5–7 Hari Kerja</span>
-          </div>
-
-          <h3 class="text-xl font-bold text-white group-hover:text-brand-gold transition duration-200">Repaint & Recoloring</h3>
-          <p class="text-xs text-brand-goldLight font-medium mb-3">Pewarnaan Ulang Upper & Midsole</p>
-          <p class="text-xs text-[#999999] leading-relaxed mb-6">
-            Pewarnaan ulang menggunakan cat akrilik fleksibel khusus material sepatu yang tidak retak saat ditekuk, ditutup protective finisher.
-          </p>
-
-          <div class="pt-4 border-t border-brand-border/60 mb-6">
-            <div class="flex items-baseline gap-1">
-              <span class="text-xs font-semibold text-brand-gold">Mulai Rp</span>
-              <span class="text-3xl font-extrabold text-white tracking-tight">120.000</span>
-              <span class="text-xs text-[#999999]">/ pasang</span>
-            </div>
-          </div>
-
-          <ul class="space-y-2.5 text-xs text-[#dadada] mb-8 flex-1">
-            <li class="flex items-center gap-2">
-              <span class="text-brand-gold font-bold">✓</span>
-              <span>Preparasi surface pembersihan lapisan minyak</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-brand-gold font-bold">✓</span>
-              <span>Cat akrilik premium tahan tekukan & cuaca</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-brand-gold font-bold">✓</span>
-              <span>Finisher matte / gloss sesuai original look</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-brand-gold font-bold">✓</span>
-              <span>Tersedia restore warna asli atau custom color</span>
-            </li>
-          </ul>
-
-          <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20mau%20konsultasi%20repaint%20sepatu" 
-             target="_blank" 
-             rel="noopener noreferrer" 
-             class="flex items-center justify-between py-3 px-5 rounded-xl text-xs font-bold text-white bg-white/5 border border-white/10 group-hover:bg-brand-gold group-hover:text-black group-hover:border-brand-gold transition duration-200">
-            <span>Konsultasi Repaint</span>
-            <svg class="w-4 h-4 transform group-hover:translate-x-1 transition duration-200" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-            </svg>
-          </a>
-        </div>
-
       </div>
 
-      <!-- Banner Promo 3 Pasang -->
-      <div class="mt-14 bg-gradient-to-r from-brand-card to-brand-surface rounded-2xl p-8 border border-brand-border flex flex-col md:flex-row items-center justify-between gap-6" data-anim="slide-bottom">
+      <!-- Banner Free Pick Up Spesial -->
+      <div id="free-pickup" class="mt-14 bg-gradient-to-r from-brand-card to-brand-surface rounded-2xl p-8 border border-brand-border flex flex-col md:flex-row items-center justify-between gap-6" data-anim="slide-bottom">
         <div>
-          <span class="text-[11px] font-bold uppercase tracking-wider text-brand-gold block mb-1">PAKET HEMAT KELUARGA / KANTOR</span>
-          <h4 class="text-xl font-bold text-white">Punya 3 pasang sepatu atau lebih yang mau dicuci?</h4>
-          <p class="text-[#a0a5ab] text-sm mt-1">Dapatkan potongan harga khusus serta gratis biaya antar-jemput untuk area Jakarta Timur.</p>
+          <span class="text-[11px] font-bold uppercase tracking-wider text-brand-gold block mb-1">FASILITAS ANTAR-JEMPUT</span>
+          <h4 class="text-xl sm:text-2xl font-bold text-white">Layanan Free Pick Up Langsung ke Rumah Anda</h4>
+          <p class="text-[#a0a5ab] text-sm mt-1 max-w-2xl">
+            Cukup kirim foto sepatu/tas dan alamat kamu via WhatsApp. Tim kami siap jemput ke area <strong>Cijantung, Cibubur, Ciracas, Cipayung, Condet, Cilangkap, dan sekitarnya</strong>.
+          </p>
         </div>
-        <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20punya%203%20pasang%20sepatu%20atau%20lebih,%20mau%20ambil%20promo%20paket%20hemat" 
+        <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20Free%20Pick%20Up%20ke%20alamat%20saya" 
            target="_blank" 
            rel="noopener noreferrer" 
            class="whitespace-nowrap px-8 py-3.5 rounded-full bg-brand-gold text-black font-extrabold text-xs uppercase tracking-wider hover:bg-brand-goldLight transition shadow-md">
-          Klaim Promo via WA
+          Chat Admin: 0857-1541-0979
         </a>
       </div>
 
@@ -902,22 +871,21 @@
   </section>
 
   <!-- ========================================================
-       6. STANDAR KERJA WORKSHOP (Captain Barbershop "why-choose" Grid)
+       6. KEUNGGULAN WORKSHOP (Captain Barbershop Grid)
   ======================================================== -->
-  <section id="standar-kami" class="py-24 bg-brand-bg border-b border-brand-border">
+  <section id="keunggulan" class="py-24 bg-brand-bg border-b border-brand-border">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="text-center max-w-2xl mx-auto mb-16" data-anim="slide-bottom">
-        <span class="text-xs font-extrabold tracking-widest text-brand-gold uppercase block mb-2">STANDAR PENGERJAAN KAMI</span>
+        <span class="text-xs font-extrabold tracking-widest text-brand-gold uppercase block mb-2">MENGAPA MEMILIH KAMI</span>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-3">
-          Bukan Sekadar Dicuci, Dirawat Presisi
+          Perawatan Aman Sesuai Karakter Bahan
         </h2>
         <p class="text-[#a0a5ab] text-sm leading-relaxed">
-          Kami mematuhi standar perawatan sepatu profesional tanpa kompromi yang bisa merusak material.
+          Lebih dari 10 tahun merawat ribuan barang berharga pelanggan dengan standar kebersihan tinggi.
         </p>
       </div>
 
-      <!-- 4 Pillars Grid with Captain Barbershop Card Styling -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         
         <!-- Pillar 1 -->
@@ -926,13 +894,13 @@
             <div class="w-12 h-12 rounded-xl bg-brand-surface text-brand-gold font-extrabold text-base flex items-center justify-center mb-5 border border-brand-border">
               01
             </div>
-            <h3 class="text-lg font-bold text-white mb-2">Sabun Organik pH 7</h3>
+            <h3 class="text-lg font-bold text-white mb-2">Bahan Alami pH Netral</h3>
             <p class="text-xs text-[#a0a5ab] leading-relaxed">
-              Deterjen pakaian mengandung pemutih tajam yang merusak lem sol dan memudarkan warna. Kami hanya menggunakan formula pembersih alami pH netral.
+              Tanpa deterjen tajam yang mengikis lem atau melunturkan warna. Aman untuk kanvas, kulit, suede, maupun rajutan flyknit.
             </p>
           </div>
           <div class="mt-6 pt-4 border-t border-brand-border/60 text-[11px] font-semibold text-brand-goldLight">
-            Bahan Aman & Ramah Serat
+            Serat Kain & Lem Terjaga
           </div>
         </div>
 
@@ -942,13 +910,13 @@
             <div class="w-12 h-12 rounded-xl bg-brand-surface text-brand-gold font-extrabold text-base flex items-center justify-center mb-5 border border-brand-border">
               02
             </div>
-            <h3 class="text-lg font-bold text-white mb-2">Dry-Cabinet 26°C</h3>
+            <h3 class="text-lg font-bold text-white mb-2">Pencucian Detail & Niat</h3>
             <p class="text-xs text-[#a0a5ab] leading-relaxed">
-              Sepatu tidak dijemur di bawah terik matahari langsung yang membuat karet sol menciut atau kaku. Kami mengeringkan di ruang tertutup dengan dehumidifier.
+              Dikerjakan manual oleh tim terampil. Dari tapak outsole bawah hingga bantalan tumit dalam dibersihkan tuntas.
             </p>
           </div>
           <div class="mt-6 pt-4 border-t border-brand-border/60 text-[11px] font-semibold text-brand-goldLight">
-            Tanpa Panas Berlebih
+            Hasil Bersih Luar Dalam
           </div>
         </div>
 
@@ -958,13 +926,13 @@
             <div class="w-12 h-12 rounded-xl bg-brand-surface text-brand-gold font-extrabold text-base flex items-center justify-center mb-5 border border-brand-border">
               03
             </div>
-            <h3 class="text-lg font-bold text-white mb-2">UV De-Oxidation Chamber</h3>
+            <h3 class="text-lg font-bold text-white mb-2">Pengeringan Khusus</h3>
             <p class="text-xs text-[#a0a5ab] leading-relaxed">
-              Khusus sol yang menguning, aktivasi pemutih karet dilakukan di dalam chamber lampu ultraviolet bersuhu terkontrol tanpa paparan debu luar.
+              Tidak dijemur di bawah matahari terik yang membuat sol karet getas atau menciut. Dikeringkan di ruangan bersirkulasi aman.
             </p>
           </div>
           <div class="mt-6 pt-4 border-t border-brand-border/60 text-[11px] font-semibold text-brand-goldLight">
-            Hasil Cerah Merata
+            Bentuk & Karet Tidak Rusak
           </div>
         </div>
 
@@ -974,13 +942,13 @@
             <div class="w-12 h-12 rounded-xl bg-brand-surface text-brand-gold font-extrabold text-base flex items-center justify-center mb-5 border border-brand-border">
               04
             </div>
-            <h3 class="text-lg font-bold text-white mb-2">Garansi 48 Jam Bebas Biaya</h3>
+            <h3 class="text-lg font-bold text-white mb-2">Garansi 100% Cuci Ulang</h3>
             <p class="text-xs text-[#a0a5ab] leading-relaxed">
-              Bila ada noda bandel yang terlewat atau belum sesuai ekspektasi, kabari tim kami dalam 48 jam dan sepatu akan dicuci ulang tanpa biaya ekstra.
+              Kepuasan pelanggan adalah prioritas kami. Jika ada noda yang terlewat, kami cuci ulang tanpa dipungut biaya tambahan.
             </p>
           </div>
           <div class="mt-6 pt-4 border-t border-brand-border/60 text-[11px] font-semibold text-brand-goldLight">
-            Jaminan Kepuasan Penuh
+            Jaminan Kualitas Pasti
           </div>
         </div>
 
@@ -990,282 +958,39 @@
   </section>
 
   <!-- ========================================================
-       7. HASIL PENGERJAAN WORKSHOP (Interactive Tabbed Comparison)
-  ======================================================== -->
-  <section id="komparasi" class="py-24 bg-brand-surface border-b border-brand-border">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center max-w-2xl mx-auto mb-14" data-anim="slide-bottom">
-        <span class="text-xs font-extrabold tracking-widest text-brand-gold uppercase block mb-2">STUDI KASUS & DOKUMENTASI</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-3">
-          Hasil Treatment Workshop Kami
-        </h2>
-        <p class="text-[#a0a5ab] text-sm leading-relaxed">
-          Berikut adalah dokumentasi penanganan nyata pada berbagai jenis sepatu di workshop StepClean.
-        </p>
-
-        <!-- Case Selector Buttons -->
-        <div class="inline-flex p-1.5 rounded-full bg-brand-card border border-brand-border mt-8 gap-2 flex-wrap justify-center">
-          <button class="case-btn active px-5 py-2 rounded-full text-xs font-bold transition bg-brand-gold text-black" data-case="1">
-            Unyellowing Nike Air Force 1
-          </button>
-          <button class="case-btn px-5 py-2 rounded-full text-xs font-semibold text-slate-300 hover:text-white transition" data-case="2">
-            Suede New Balance 990
-          </button>
-          <button class="case-btn px-5 py-2 rounded-full text-xs font-semibold text-slate-300 hover:text-white transition" data-case="3">
-            Canvas Vans Old Skool
-          </button>
-        </div>
-      </div>
-
-      <!-- Case 1 Container -->
-      <div id="case-panel-1" class="case-panel grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-brand-card rounded-3xl p-6 sm:p-10 border border-brand-border" data-anim="slide-bottom">
-        <div class="lg:col-span-6 space-y-4">
-          <div class="inline-block px-3 py-1 rounded bg-brand-gold/10 border border-brand-gold/20 text-brand-goldLight text-xs font-bold uppercase tracking-wider">
-            Kasus: Oksidasi Midsole Parah
-          </div>
-          <h3 class="text-2xl sm:text-3xl font-bold text-white">Nike Air Force 1 '07 All White</h3>
-          <p class="text-xs sm:text-sm text-[#a0a5ab] leading-relaxed">
-            <strong class="text-white block mb-1">Kondisi Awal:</strong>
-            Midsole karet menguning kecokelatan akibat disimpan lama di tempat lembap dan paparan debu oksidasi jalanan. Lemari sepatu tidak memiliki ventilasi.
-          </p>
-          <p class="text-xs sm:text-sm text-[#a0a5ab] leading-relaxed">
-            <strong class="text-white block mb-1">Treatment yang Diberikan:</strong>
-            Pembersihan deep clean seluruh upper kulit, kemudian pengolesan formula unyellowing de-oksidasi dan penyinaran UV Chamber 2x siklus (masing-masing 3 jam). Selesai dengan pembersihan netralisir residu.
-          </p>
-          <div class="pt-4 border-t border-brand-border/60 flex items-center gap-6 text-xs text-[#dadada]">
-            <div>
-              <span class="text-[#999999] block">Waktu Pengerjaan:</span>
-              <strong class="text-white">3 Hari Kerja</strong>
-            </div>
-            <div>
-              <span class="text-[#999999] block">Paket:</span>
-              <strong class="text-brand-gold">Unyellowing + Deep Clean</strong>
-            </div>
-          </div>
-        </div>
-
-        <div class="lg:col-span-6">
-          <div class="grid grid-cols-2 gap-4">
-            <div class="relative rounded-2xl overflow-hidden border border-brand-border bg-black">
-              <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80" 
-                   alt="Sebelum Unyellowing" 
-                   class="w-full h-64 sm:h-72 object-cover opacity-75">
-              <span class="absolute top-3 left-3 bg-red-600/90 text-white text-[11px] font-extrabold uppercase px-3 py-1 rounded-md shadow">
-                Kondisi Sebelum
-              </span>
-            </div>
-            <div class="relative rounded-2xl overflow-hidden border-2 border-brand-gold bg-black">
-              <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80" 
-                   alt="Setelah Unyellowing" 
-                   class="w-full h-64 sm:h-72 object-cover">
-              <span class="absolute top-3 left-3 bg-brand-gold text-black text-[11px] font-extrabold uppercase px-3 py-1 rounded-md shadow">
-                Hasil Treatment
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Case 2 Container -->
-      <div id="case-panel-2" class="case-panel hidden grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-brand-card rounded-3xl p-6 sm:p-10 border border-brand-border">
-        <div class="lg:col-span-6 space-y-4">
-          <div class="inline-block px-3 py-1 rounded bg-brand-gold/10 border border-brand-gold/20 text-brand-goldLight text-xs font-bold uppercase tracking-wider">
-            Kasus: Suede Kaku & Terkena Air Hujan
-          </div>
-          <h3 class="text-2xl sm:text-3xl font-bold text-white">New Balance 990v5 Grey Suede</h3>
-          <p class="text-xs sm:text-sm text-[#a0a5ab] leading-relaxed">
-            <strong class="text-white block mb-1">Kondisi Awal:</strong>
-            Material suede mengeras dan mengeras (hard water spots) setelah kehujanan, permukaan berdebu pekat, dan nap beludru mati.
-          </p>
-          <p class="text-xs sm:text-sm text-[#a0a5ab] leading-relaxed">
-            <strong class="text-white block mb-1">Treatment yang Diberikan:</strong>
-            Pembersihan kering menggunakan Suede Eraser untuk mengangkat noda air, dry-foam cleaning non-rendam, dan penyikatan satu arah dengan sikat bulu kuda untuk mengembalikan kelembutan serat.
-          </p>
-          <div class="pt-4 border-t border-brand-border/60 flex items-center gap-6 text-xs text-[#dadada]">
-            <div>
-              <span class="text-[#999999] block">Waktu Pengerjaan:</span>
-              <strong class="text-white">3 Hari Kerja</strong>
-            </div>
-            <div>
-              <span class="text-[#999999] block">Paket:</span>
-              <strong class="text-brand-gold">Leather & Suede Spa</strong>
-            </div>
-          </div>
-        </div>
-
-        <div class="lg:col-span-6">
-          <div class="grid grid-cols-2 gap-4">
-            <div class="relative rounded-2xl overflow-hidden border border-brand-border bg-black">
-              <img src="https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=600&q=80" 
-                   alt="Sebelum Suede Cleaning" 
-                   class="w-full h-64 sm:h-72 object-cover opacity-75">
-              <span class="absolute top-3 left-3 bg-red-600/90 text-white text-[11px] font-extrabold uppercase px-3 py-1 rounded-md shadow">
-                Kondisi Sebelum
-              </span>
-            </div>
-            <div class="relative rounded-2xl overflow-hidden border-2 border-brand-gold bg-black">
-              <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=600&q=80" 
-                   alt="Setelah Suede Cleaning" 
-                   class="w-full h-64 sm:h-72 object-cover">
-              <span class="absolute top-3 left-3 bg-brand-gold text-black text-[11px] font-extrabold uppercase px-3 py-1 rounded-md shadow">
-                Hasil Treatment
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Case 3 Container -->
-      <div id="case-panel-3" class="case-panel hidden grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-brand-card rounded-3xl p-6 sm:p-10 border border-brand-border">
-        <div class="lg:col-span-6 space-y-4">
-          <div class="inline-block px-3 py-1 rounded bg-brand-gold/10 border border-brand-gold/20 text-brand-goldLight text-xs font-bold uppercase tracking-wider">
-            Kasus: Noda Lumpur & Minyak Pekat
-          </div>
-          <h3 class="text-2xl sm:text-3xl font-bold text-white">Vans Old Skool Canvas Black/White</h3>
-          <p class="text-xs sm:text-sm text-[#a0a5ab] leading-relaxed">
-            <strong class="text-white block mb-1">Kondisi Awal:</strong>
-            Upper canvas dipenuhi bercak lumpur kering dan foxing karet samping kusam. Tali sepatu menghitam karena gesekan ring logam.
-          </p>
-          <p class="text-xs sm:text-sm text-[#a0a5ab] leading-relaxed">
-            <strong class="text-white block mb-1">Treatment yang Diberikan:</strong>
-            Pencucian manual bertahap dengan sikat nilon medium khusus canvas, ultrasonic cleaner untuk tali sepatu, dan penuntasan noda oli pada foxing putih.
-          </p>
-          <div class="pt-4 border-t border-brand-border/60 flex items-center gap-6 text-xs text-[#dadada]">
-            <div>
-              <span class="text-[#999999] block">Waktu Pengerjaan:</span>
-              <strong class="text-white">2 Hari Kerja</strong>
-            </div>
-            <div>
-              <span class="text-[#999999] block">Paket:</span>
-              <strong class="text-brand-gold">Deep Clean</strong>
-            </div>
-          </div>
-        </div>
-
-        <div class="lg:col-span-6">
-          <div class="grid grid-cols-2 gap-4">
-            <div class="relative rounded-2xl overflow-hidden border border-brand-border bg-black">
-              <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=600&q=80" 
-                   alt="Sebelum Deep Clean" 
-                   class="w-full h-64 sm:h-72 object-cover opacity-75">
-              <span class="absolute top-3 left-3 bg-red-600/90 text-white text-[11px] font-extrabold uppercase px-3 py-1 rounded-md shadow">
-                Kondisi Sebelum
-              </span>
-            </div>
-            <div class="relative rounded-2xl overflow-hidden border-2 border-brand-gold bg-black">
-              <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=600&q=80" 
-                   alt="Setelah Deep Clean" 
-                   class="w-full h-64 sm:h-72 object-cover">
-              <span class="absolute top-3 left-3 bg-brand-gold text-black text-[11px] font-extrabold uppercase px-3 py-1 rounded-md shadow">
-                Hasil Treatment
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ========================================================
-       8. ALUR ORDER & PROSES TRANSPARAN (Step 01 - 04)
-  ======================================================== -->
-  <section id="alur" class="py-24 bg-brand-bg border-b border-brand-border">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center max-w-2xl mx-auto mb-16" data-anim="slide-bottom">
-        <span class="text-xs font-extrabold tracking-widest text-brand-gold uppercase block mb-2">ALUR KERJA WORKSHOP</span>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-2">
-          4 Langkah Praktis
-        </h2>
-        <p class="text-[#a0a5ab] text-sm">
-          Bisa antar langsung ke workshop atau gunakan fasilitas antar-jemput.
-        </p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        
-        <!-- Step 1 -->
-        <div class="bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold/40 transition duration-300" data-anim="slide-bottom" style="--delay: 100ms">
-          <div class="w-12 h-12 rounded-xl bg-brand-surface text-brand-gold font-extrabold text-xl flex items-center justify-center mb-5 border border-brand-border">
-            01
-          </div>
-          <h3 class="text-lg font-bold text-white mb-2">Hubungi WhatsApp</h3>
-          <p class="text-[#a0a5ab] text-xs leading-relaxed">
-            Kirimkan foto sepatu Anda dan konsultasikan jenis keluhan (noda, sol kuning, atau lem copot). Kami beri estimasi harga & waktu langsung.
-          </p>
-        </div>
-
-        <!-- Step 2 -->
-        <div class="bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold/40 transition duration-300" data-anim="slide-bottom" style="--delay: 200ms">
-          <div class="w-12 h-12 rounded-xl bg-brand-surface text-brand-gold font-extrabold text-xl flex items-center justify-center mb-5 border border-brand-border">
-            02
-          </div>
-          <h3 class="text-lg font-bold text-white mb-2">Inspeksi & Foto Awal</h3>
-          <p class="text-[#a0a5ab] text-xs leading-relaxed">
-            Saat sepatu tiba di workshop Cijantung, kami dokumentasikan foto kondisi fisik sebelum dicuci dan mengonfirmasi bagian noda kritis ke Anda.
-          </p>
-        </div>
-
-        <!-- Step 3 -->
-        <div class="bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold/40 transition duration-300" data-anim="slide-bottom" style="--delay: 300ms">
-          <div class="w-12 h-12 rounded-xl bg-brand-surface text-brand-gold font-extrabold text-xl flex items-center justify-center mb-5 border border-brand-border">
-            03
-          </div>
-          <h3 class="text-lg font-bold text-white mb-2">Pencucian Manual</h3>
-          <p class="text-[#a0a5ab] text-xs leading-relaxed">
-            Pengerjaan manual bertahap menggunakan sikat dan sabun organik sesuai materialnya, lalu dikeringkan di ruangan dehumidifier steril.
-          </p>
-        </div>
-
-        <!-- Step 4 -->
-        <div class="bg-brand-card rounded-2xl p-7 border border-brand-border hover:border-brand-gold/40 transition duration-300" data-anim="slide-bottom" style="--delay: 400ms">
-          <div class="w-12 h-12 rounded-xl bg-brand-surface text-brand-gold font-extrabold text-xl flex items-center justify-center mb-5 border border-brand-border">
-            04
-          </div>
-          <h3 class="text-lg font-bold text-white mb-2">QC, Dustbag & Kirim</h3>
-          <p class="text-[#a0a5ab] text-xs leading-relaxed">
-            Pengecekan kualitas akhir, disemprot antibakteri wangi, dimasukkan ke dustbag bersih, dan siap diambil atau diantar kembali ke alamat Anda.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ========================================================
-       9. ULASAN PELANGGAN JAKARTA TIMUR
+       7. TESTIMONI PELANGGAN (Kutipan Asli Instagram)
   ======================================================== -->
   <section id="ulasan" class="py-24 bg-brand-surface border-b border-brand-border">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="text-center max-w-2xl mx-auto mb-16" data-anim="slide-bottom">
-        <span class="text-xs font-extrabold tracking-widest text-brand-gold uppercase block mb-2">KEPUASAN PELANGGAN</span>
+        <span class="text-xs font-extrabold tracking-widest text-brand-gold uppercase block mb-2">TESTIMONI ASLI</span>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-2">
-          Ulasan Nyata Pelanggan
+          Apa Kata Pelanggan Kami?
         </h2>
         <p class="text-[#a0a5ab] text-sm">
-          Apa kata mereka yang mempercayakan perawatannya ke StepClean Studio.
+          Perawatan sepatu adalah investasi kecil yang hasilnya gede untuk penampilan Anda.
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         
-        <!-- Review 1 -->
+        <!-- Review 1: Tri Haryono (Google Maps & IG Review) -->
         <div class="bg-brand-card rounded-2xl p-7 border border-brand-border flex flex-col justify-between" data-anim="slide-bottom" style="--delay: 100ms">
           <div>
             <div class="flex items-center gap-1 text-brand-gold mb-3 text-sm">
               ★★★★★
             </div>
-            <p class="text-[#dadada] text-xs sm:text-sm leading-relaxed mb-6">
-              "Nike AF1 saya yang solnya kuning parah gara-gara kelamaan di kardus bisa balik putih bersih lagi tanpa bikin karetnya getas. Hasil unyellowing-nya juara."
+            <p class="text-[#dadada] text-xs sm:text-sm leading-relaxed mb-6 font-normal">
+              "Sepatu yang tadinya kusam, bau, sampai nyaris 'pamit', balik dari Cuci Sepatu Cijantung langsung cling lagi dan nyaman banget dipakai. Hasil bersihnya rapi dan detailnya niat!"
             </p>
           </div>
           <div class="pt-4 border-t border-brand-border flex items-center justify-between">
-            <span class="text-sm font-bold text-white">Rizky Ananda</span>
-            <span class="text-xs text-[#999999]">Cijantung, Pasar Rebo</span>
+            <div>
+              <span class="text-sm font-bold text-white block">Tri Haryono</span>
+              <span class="text-[11px] text-[#999999]">Review Terverifikasi Google Maps</span>
+            </div>
+            <span class="text-xs text-brand-gold font-semibold">Cijantung</span>
           </div>
         </div>
 
@@ -1275,13 +1000,16 @@
             <div class="flex items-center gap-1 text-brand-gold mb-3 text-sm">
               ★★★★★
             </div>
-            <p class="text-[#dadada] text-xs sm:text-sm leading-relaxed mb-6">
-              "Paling takut kalau cuci sepatu suede warna abu-abu karena gampang belang. Di StepClean teksturnya tetap halus dan warnanya gak luntur sama sekali. Sangat profesional."
+            <p class="text-[#dadada] text-xs sm:text-sm leading-relaxed mb-6 font-normal">
+              "Fasilitas Free Pick Up-nya sangat membantu! Admin fast respon via WhatsApp. Sepatu kantor dan tas ransel langsung diambil ke rumah di Ciracas dan diantar kembali dalam kondisi wangi dan bersih."
             </p>
           </div>
           <div class="pt-4 border-t border-brand-border flex items-center justify-between">
-            <span class="text-sm font-bold text-white">Claudia V.</span>
-            <span class="text-xs text-[#999999]">Ciracas, Jaktim</span>
+            <div>
+              <span class="text-sm font-bold text-white block">Rian Ardiansyah</span>
+              <span class="text-[11px] text-[#999999]">Pelanggan Free Pick Up</span>
+            </div>
+            <span class="text-xs text-brand-gold font-semibold">Ciracas</span>
           </div>
         </div>
 
@@ -1291,31 +1019,44 @@
             <div class="flex items-center gap-1 text-brand-gold mb-3 text-sm">
               ★★★★★
             </div>
-            <p class="text-[#dadada] text-xs sm:text-sm leading-relaxed mb-6">
-              "Jemput-antarnya sangat ngebantu buat yang kerja kantoran. Pulang kerja sepatu sudah diantar dalam kemasan rapi dan wanginya enak gak menusuk hidung."
+            <p class="text-[#dadada] text-xs sm:text-sm leading-relaxed mb-6 font-normal">
+              "Udah langganan dari dulu waktu masih di outlet Pertengahan. Dari sneakers kanvas putih sampai sepatu suede dirawat dengan hati-hati. Sol yang kuning juga bisa cerah lagi."
             </p>
           </div>
           <div class="pt-4 border-t border-brand-border flex items-center justify-between">
-            <span class="text-sm font-bold text-white">Bagus Perkasa</span>
-            <span class="text-xs text-[#999999]">Kramat Jati</span>
+            <div>
+              <span class="text-sm font-bold text-white block">Dita Amelia</span>
+              <span class="text-[11px] text-[#999999]">Pelanggan Setia Sejak 2018</span>
+            </div>
+            <span class="text-xs text-brand-gold font-semibold">Pasar Rebo</span>
           </div>
         </div>
 
+      </div>
+
+      <!-- Instagram Link Badge -->
+      <div class="text-center mt-12">
+        <a href="https://www.instagram.com/cucisepatucijantung/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-bold text-brand-gold hover:text-brand-goldLight transition">
+          <span>Ikuti update & portofolio terbaru kami di Instagram @cucisepatucijantung</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+        </a>
       </div>
 
     </div>
   </section>
 
   <!-- ========================================================
-       10. FAQ ACCORDION (Pertanyaan Praktis)
+       8. FAQ ACCORDION
   ======================================================== -->
   <section id="faq" class="py-20 bg-brand-bg border-b border-brand-border">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="text-center mb-12" data-anim="slide-bottom">
         <span class="text-xs font-extrabold tracking-widest text-brand-gold uppercase block mb-2">TANYA JAWAB</span>
-        <h3 class="text-2xl sm:text-3xl font-extrabold text-white">Seputar Layanan & Penanganan</h3>
-        <p class="text-[#999999] text-sm mt-2">Hal-hal yang sering ditanyakan sebelum mengirim sepatu</p>
+        <h3 class="text-2xl sm:text-3xl font-extrabold text-white">Pertanyaan Seputar Layanan</h3>
+        <p class="text-[#999999] text-sm mt-2">Seputar penjemputan dan perawatan barang Anda</p>
       </div>
 
       <div class="space-y-3">
@@ -1323,52 +1064,52 @@
         <!-- FAQ 1 -->
         <div class="bg-brand-card rounded-xl border border-brand-border overflow-hidden" data-anim="slide-bottom" style="--delay: 100ms">
           <button class="faq-toggle w-full px-6 py-4 text-left flex items-center justify-between font-semibold text-white hover:text-brand-gold transition duration-200">
-            <span>Area mana saja yang dijangkau layanan antar-jemput?</span>
+            <span>Bagaimana cara menggunakan layanan Free Pick Up?</span>
             <svg class="faq-icon w-5 h-5 text-brand-gold transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
             </svg>
           </button>
           <div class="faq-content hidden px-6 pb-4 text-[#a0a5ab] text-xs sm:text-sm leading-relaxed border-t border-brand-border/60 pt-3">
-            Layanan antar-jemput kami mencakup seluruh kawasan Jakarta Timur, khususnya Cijantung, Pasar Rebo, Ciracas, Cipayung, Kramat Jati, Condet, dan sekitarnya. Jika lokasi Anda berada di luar area ini, pengiriman bisa menggunakan kurir instan seperti Grab Express atau GoSend.
+            Sangat mudah! Anda cukup mengirimkan pesan ke WhatsApp Admin di <strong>0857-1541-0979</strong>, kirimkan foto sepatu/tas yang ingin dicuci beserta share location alamat Anda. Tim kami akan menjadwalkan penjemputan langsung ke rumah Anda.
           </div>
         </div>
 
         <!-- FAQ 2 -->
         <div class="bg-brand-card rounded-xl border border-brand-border overflow-hidden" data-anim="slide-bottom" style="--delay: 200ms">
           <button class="faq-toggle w-full px-6 py-4 text-left flex items-center justify-between font-semibold text-white hover:text-brand-gold transition duration-200">
-            <span>Berapa lama estimasi pengerjaan cuci sepatu?</span>
+            <span>Wilayah mana saja yang dijangkau Free Pick Up?</span>
             <svg class="faq-icon w-5 h-5 text-brand-gold transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
             </svg>
           </button>
           <div class="faq-content hidden px-6 pb-4 text-[#a0a5ab] text-xs sm:text-sm leading-relaxed border-t border-brand-border/60 pt-3">
-            Paket Fast Clean membutuhkan waktu 1–2 hari kerja. Paket Deep Clean membutuhkan 2–3 hari kerja. Sedangkan untuk treatment khusus seperti Unyellowing, Suede Spa, atau Reglue membutuhkan 3–5 hari kerja karena membutuhkan waktu de-oksidasi serta masa curing lem sol selama 24 jam agar merekat sempurna.
+            Layanan antar-jemput kami menjangkau seluruh area Cijantung, Cibubur, Ciracas, Cipayung, Condet, Cilangkap, Pasar Rebo, dan kawasan sekitarnya di Jakarta Timur.
           </div>
         </div>
 
         <!-- FAQ 3 -->
         <div class="bg-brand-card rounded-xl border border-brand-border overflow-hidden" data-anim="slide-bottom" style="--delay: 300ms">
           <button class="faq-toggle w-full px-6 py-4 text-left flex items-center justify-between font-semibold text-white hover:text-brand-gold transition duration-200">
-            <span>Bagaimana prosedur klaim Garansi Cuci Ulang?</span>
+            <span>Selain sepatu, apakah bisa cuci tas dan topi?</span>
             <svg class="faq-icon w-5 h-5 text-brand-gold transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
             </svg>
           </button>
           <div class="faq-content hidden px-6 pb-4 text-[#a0a5ab] text-xs sm:text-sm leading-relaxed border-t border-brand-border/60 pt-3">
-            Bila dalam kurun waktu 48 jam setelah sepatu diterima Anda merasa ada bagian noda yang belum bersih maksimal, cukup fotokan bagian tersebut dan hubungi WhatsApp kami. Tim kami akan menjemput dan mencuci ulang sepatu Anda tanpa biaya tambahan sama sekali.
+            Bisa banget! Kami juga spesialis perawatan tas (backpack, ransel kerja, totebag, sling bag, tas kulit) dan berbagai jenis topi (snapback, baseball cap, bucket hat) agar terbebas dari jamur, debu, dan bau keringat.
           </div>
         </div>
 
         <!-- FAQ 4 -->
         <div class="bg-brand-card rounded-xl border border-brand-border overflow-hidden" data-anim="slide-bottom" style="--delay: 400ms">
           <button class="faq-toggle w-full px-6 py-4 text-left flex items-center justify-between font-semibold text-white hover:text-brand-gold transition duration-200">
-            <span>Apakah aman untuk sepatu bermerek mahal (Original/Hyped)?</span>
+            <span>Berapa lama waktu pengerjaan cuci sepatu/tas?</span>
             <svg class="faq-icon w-5 h-5 text-brand-gold transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
             </svg>
           </button>
           <div class="faq-content hidden px-6 pb-4 text-[#a0a5ab] text-xs sm:text-sm leading-relaxed border-t border-brand-border/60 pt-3">
-            Sangat aman. Tim workshop kami terbiasa menangani brand sneakers seperti Jordan, Yeezy, New Balance Made in USA/UK, hingga sepatu kulit pantofel. Setiap sepatu dicek bahannya terlebih dahulu untuk menentukan formula sabun dan tingkat kelembutan bulu sikat yang tepat.
+            Layanan Fast Clean memakan waktu 1–2 hari kerja, Deep Clean 2–3 hari kerja, dan treatment khusus seperti unyellowing, reglue sol, atau leather spa sekitar 3–5 hari kerja agar proses pengeringan dan perekatan lem bekerja sempurna.
           </div>
         </div>
 
@@ -1377,70 +1118,90 @@
   </section>
 
   <!-- ========================================================
-       11. WORKSHOP LOCATOR BAR & GOOGLE MAPS (Captain Barbershop Style)
+       9. 2 OUTLET RESMI DI CIJANTUNG & GOOGLE MAPS
   ======================================================== -->
   <section id="lokasi" class="py-24 bg-brand-surface border-b border-brand-border">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <!-- Branch Header Banner -->
-      <div class="bg-brand-card rounded-3xl p-8 sm:p-12 border border-brand-border shadow-2xl mb-12" data-anim="slide-bottom">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-          
-          <div class="lg:col-span-8">
-            <span class="text-xs font-extrabold tracking-widest text-brand-gold uppercase block mb-2">LOKASI RESMI WORKSHOP</span>
-            <h3 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-3">
-              Mau Berkunjung Langsung?
-            </h3>
-            <p class="text-[#a0a5ab] text-sm leading-relaxed mb-6">
-              Bagi Anda yang ingin drop-off atau konsultasi fisik kondisi sepatu secara langsung, silakan mampir ke workshop kami di Cijantung.
-            </p>
+      <!-- Outlet Cards Header -->
+      <div class="text-center max-w-2xl mx-auto mb-14" data-anim="slide-bottom">
+        <span class="text-xs font-extrabold tracking-widest text-brand-gold uppercase block mb-2">TITIK WORKSHOP & DROP POINT</span>
+        <h3 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-3">
+          2 Outlet Resmi Kami di Cijantung
+        </h3>
+        <p class="text-[#a0a5ab] text-sm">
+          Bagi yang ingin drop-off langsung tanpa pick up, silakan mampir ke outlet terdekat dari lokasi Anda.
+        </p>
+      </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs sm:text-sm text-[#dadada]">
-              <div class="flex items-start gap-3">
-                <div class="w-8 h-8 rounded-lg bg-brand-surface text-brand-gold flex items-center justify-center shrink-0 border border-brand-border">
-                  📍
-                </div>
-                <div>
-                  <strong class="text-white block font-semibold">Alamat:</strong>
-                  <span class="text-[#999999]">Cuci Sepatu Cijantung, Kec. Pasar Rebo, Jakarta Timur</span>
-                </div>
-              </div>
-
-              <div class="flex items-start gap-3">
-                <div class="w-8 h-8 rounded-lg bg-brand-surface text-brand-gold flex items-center justify-center shrink-0 border border-brand-border">
-                  ⏰
-                </div>
-                <div>
-                  <strong class="text-white block font-semibold">Jam Operasional:</strong>
-                  <span class="text-[#999999]">Buka Setiap Hari, 09.00 – 20.00 WIB</span>
-                </div>
-              </div>
-            </div>
+      <!-- 2 Outlet Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        
+        <!-- Outlet 1: Pertengahan (SDN 05) -->
+        <div class="bg-brand-card rounded-3xl p-8 border border-brand-border hover:border-brand-gold/60 transition shadow-xl" data-anim="slide-bottom" style="--delay: 100ms">
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 bg-brand-gold/15 text-brand-goldLight text-xs font-bold rounded-full border border-brand-gold/30">
+              Outlet 1 (Pusat)
+            </span>
+            <span class="text-xs text-[#999999]">Est. 2014</span>
           </div>
-
-          <div class="lg:col-span-4 flex flex-col gap-3">
-            <a href="https://www.google.com/maps/place/Cuci+Sepatu+Cijantung/@-6.3252948,106.856186,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69eda4f62fa5c9:0xc7afa13ba53dced8!8m2!3d-6.3252948!4d106.856186!16s%2Fg%2F11fy4l0zp9?entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D" 
+          <h4 class="text-xl font-bold text-white mb-2">Ekspress Laundry 1</h4>
+          <p class="text-xs sm:text-sm text-[#a0a5ab] leading-relaxed mb-6">
+            <strong>Alamat:</strong> Jl. Pertengahan No. 5A (Tepat di depan SDN 05 Cijantung), Pasar Rebo, Jakarta Timur.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-3">
+            <a href="https://www.google.com/maps/place/Cuci+Sepatu+Cijantung/@-6.3252948,106.856186,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69eda4f62fa5c9:0xc7afa13ba53dced8!8m2!3d-6.3252948!4d106.856186!16s%2Fg%2F11fy4l0zp9" 
                target="_blank" 
-               rel="noopener noreferrer"
-               class="inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-brand-gold to-brand-goldDark hover:from-brand-goldLight hover:to-brand-gold text-black text-xs font-extrabold uppercase tracking-wider px-6 py-4 rounded-full transition shadow-md">
-              <span>Buka Petunjuk Arah</span>
-              <svg class="w-4 h-4 text-black" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+               rel="noopener noreferrer" 
+               class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-brand-gold to-brand-goldDark text-black text-xs font-extrabold uppercase px-6 py-3 rounded-full shadow-md">
+              <span>Buka Google Maps</span>
+              <svg class="w-3.5 h-3.5 text-black" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
               </svg>
             </a>
-
-            <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20sedang%20menuju%20ke%20workshop%20Cijantung" 
+            <a href="https://wa.me/6285715410979?text=Halo%20Admin,%20saya%20mau%20antar%20sepatu%20ke%20Outlet%20Pertengahan" 
                target="_blank" 
-               rel="noopener noreferrer"
-               class="inline-flex items-center justify-center gap-2 bg-brand-surface hover:bg-white/10 text-white border border-brand-border text-xs font-bold px-6 py-3.5 rounded-full transition">
-              <span>Kabari Sebelum Datang</span>
+               rel="noopener noreferrer" 
+               class="inline-flex items-center justify-center gap-2 bg-brand-surface hover:bg-white/10 text-white border border-brand-border text-xs font-semibold px-5 py-3 rounded-full transition">
+              <span>Konfirmasi Kedatangan</span>
             </a>
           </div>
-
         </div>
+
+        <!-- Outlet 2: Pendidikan (Sekolah Sudirman) -->
+        <div class="bg-brand-card rounded-3xl p-8 border border-brand-border hover:border-brand-gold/60 transition shadow-xl" data-anim="slide-bottom" style="--delay: 200ms">
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 bg-brand-gold/15 text-brand-goldLight text-xs font-bold rounded-full border border-brand-gold/30">
+              Outlet 2 (Cabang)
+            </span>
+            <span class="text-xs text-[#999999]">Drop Point</span>
+          </div>
+          <h4 class="text-xl font-bold text-white mb-2">Ekspress Laundry 2</h4>
+          <p class="text-xs sm:text-sm text-[#a0a5ab] leading-relaxed mb-6">
+            <strong>Alamat:</strong> Jl. Pendidikan No. 5A (Dekat Komplek Sekolah Sudirman Cijantung), Pasar Rebo, Jakarta Timur.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-3">
+            <a href="https://www.google.com/maps/place/Cuci+Sepatu+Cijantung/@-6.3252948,106.856186,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69eda4f62fa5c9:0xc7afa13ba53dced8!8m2!3d-6.3252948!4d106.856186!16s%2Fg%2F11fy4l0zp9" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-brand-gold to-brand-goldDark text-black text-xs font-extrabold uppercase px-6 py-3 rounded-full shadow-md">
+              <span>Petunjuk Rute Maps</span>
+              <svg class="w-3.5 h-3.5 text-black" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+            </a>
+            <a href="https://wa.me/6285715410979?text=Halo%20Admin,%20saya%20mau%20antar%20sepatu%20ke%20Outlet%20Pendidikan" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="inline-flex items-center justify-center gap-2 bg-brand-surface hover:bg-white/10 text-white border border-brand-border text-xs font-semibold px-5 py-3 rounded-full transition">
+              <span>Konfirmasi Kedatangan</span>
+            </a>
+          </div>
+        </div>
+
       </div>
 
-      <!-- Google Maps Iframe Container -->
+      <!-- Google Maps Iframe -->
       <div class="rounded-3xl overflow-hidden border border-brand-border shadow-2xl bg-brand-card h-[380px] sm:h-[450px]" data-anim="slide-bottom">
         <iframe 
           src="https://maps.google.com/maps?q=-6.3252948,106.856186&hl=id&z=17&output=embed" 
@@ -1451,7 +1212,7 @@
           loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade"
           class="w-full h-full filter invert-[0.88] hue-rotate-180 contrast-125"
-          title="Peta Lokasi Workshop Cuci Sepatu Cijantung">
+          title="Peta Lokasi Cuci Sepatu Cijantung">
         </iframe>
       </div>
 
@@ -1459,54 +1220,55 @@
   </section>
 
   <!-- ========================================================
-       12. FOOTER (Captain Barbershop Style)
+       10. FOOTER (Captain Barbershop Style)
   ======================================================== -->
   <footer class="bg-brand-surface text-[#999999] pt-16 pb-12 border-t border-brand-border">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-brand-border">
         
-        <!-- Kolom Brand & Bio -->
+        <!-- Brand & Bio -->
         <div class="md:col-span-5">
           <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-goldLight to-brand-gold text-black flex items-center justify-center font-extrabold text-sm tracking-wider">
-              SC
+            <div class="w-10 h-10 rounded-full overflow-hidden border border-brand-gold bg-white">
+              <img src="assets/img/ekspress_laundry_pfp.jpg" alt="Logo Cuci Sepatu Cijantung" class="w-full h-full object-cover">
             </div>
             <div>
-              <span class="font-extrabold text-white text-lg tracking-tight block">StepClean Studio</span>
-              <span class="text-[10px] uppercase font-bold tracking-widest text-brand-goldLight block -mt-0.5">Shoe Care & Restoration</span>
+              <span class="font-extrabold text-white text-lg tracking-tight block">Cuci Sepatu Cijantung</span>
+              <span class="text-[10px] uppercase font-bold tracking-widest text-brand-goldLight block -mt-0.5">Ekspress Shoes & Apparel Care • Est. 2014</span>
             </div>
           </div>
           <p class="text-xs sm:text-sm text-[#a0a5ab] leading-relaxed max-w-sm mb-4">
-            Layanan cuci, unyellowing, dan restorasi sepatu premium di Cijantung, Jakarta Timur. Pengerjaan manual presisi dengan jaminan kebersihan maksimal.
+            Kami membersihkan dan merawat sepatu, tas, dan topi Anda di Cijantung, Jakarta Timur. Pengerjaan rapi, detail niat, dan proses aman untuk semua jenis bahan.
           </p>
           <div class="text-xs font-semibold text-brand-goldLight">
-            Workshop Cijantung, Pasar Rebo, Jakarta Timur
+            Instagram: <a href="https://www.instagram.com/cucisepatucijantung/" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">@cucisepatucijantung</a>
           </div>
         </div>
 
-        <!-- Kolom Navigasi -->
+        <!-- Links Navigasi -->
         <div class="md:col-span-3">
           <h5 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Navigasi</h5>
           <ul class="space-y-2.5 text-xs sm:text-sm">
             <li><a href="#beranda" class="hover:text-brand-gold transition duration-200">Beranda</a></li>
-            <li><a href="#layanan" class="hover:text-brand-gold transition duration-200">Katalog Treatment</a></li>
-            <li><a href="#standar-kami" class="hover:text-brand-gold transition duration-200">Standar Workshop</a></li>
-            <li><a href="#komparasi" class="hover:text-brand-gold transition duration-200">Hasil Pengerjaan</a></li>
-            <li><a href="#alur" class="hover:text-brand-gold transition duration-200">Alur Order</a></li>
+            <li><a href="#layanan" class="hover:text-brand-gold transition duration-200">Pricelist Layanan</a></li>
+            <li><a href="#keunggulan" class="hover:text-brand-gold transition duration-200">Keunggulan Workshop</a></li>
+            <li><a href="#free-pickup" class="hover:text-brand-gold transition duration-200">Fasilitas Free Pick Up</a></li>
+            <li><a href="#ulasan" class="hover:text-brand-gold transition duration-200">Testimoni Pelanggan</a></li>
             <li><a href="#faq" class="hover:text-brand-gold transition duration-200">FAQ</a></li>
-            <li><a href="#lokasi" class="hover:text-brand-gold transition duration-200">Lokasi Workshop</a></li>
+            <li><a href="#lokasi" class="hover:text-brand-gold transition duration-200">Lokasi 2 Outlet</a></li>
           </ul>
         </div>
 
-        <!-- Kolom Info Operasional & Kontak -->
+        <!-- Info Outlet & Kontak -->
         <div class="md:col-span-4">
-          <h5 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Kontak & Workshop</h5>
+          <h5 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Kontak & Outlet</h5>
           <div class="space-y-3 text-xs sm:text-sm">
-            <p><strong class="text-white">Alamat:</strong> Jl. Raya Cijantung, Kec. Pasar Rebo, Jakarta Timur</p>
-            <p><strong class="text-white">Jam Buka:</strong> Setiap Hari, 09.00 – 20.00 WIB</p>
+            <p><strong class="text-white">Outlet 1:</strong> Jl. Pertengahan No. 5A (Depan SDN 05 Cijantung)</p>
+            <p><strong class="text-white">Outlet 2:</strong> Jl. Pendidikan No. 5A (Dekat Sekolah Sudirman Cijantung)</p>
+            <p><strong class="text-white">Jam Buka:</strong> Setiap Hari, 08.00 – 21.00 WIB</p>
             <p>
-              <strong class="text-white">WhatsApp Tim:</strong> 
+              <strong class="text-white">WhatsApp Admin (Pick Up):</strong> 
               <a href="https://wa.me/6285715410979" class="text-brand-gold font-bold hover:underline block mt-0.5">
                 0857-1541-0979
               </a>
@@ -1518,17 +1280,17 @@
 
       <!-- Copyright -->
       <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#999999] gap-4">
-        <p>© 2026 StepClean Studio. Hak Cipta Dilindungi.</p>
-        <p>Premium Shoe Care & Restoration Workshop • Jakarta Timur</p>
+        <p>© 2014 – 2026 Cuci Sepatu Cijantung (Ekspress Shoes & Apparel Care). All rights reserved.</p>
+        <p>Shoes, Bag & Apparel Care Specialist • Cijantung, Jakarta Timur</p>
       </div>
 
     </div>
   </footer>
 
   <!-- ========================================================
-       13. FLOATING WHATSAPP CTA WITH PULSE RING
+       11. FLOATING WHATSAPP CTA WITH PULSE RING
   ======================================================== -->
-  <a href="https://wa.me/6285715410979?text=Halo%20StepClean,%20saya%20mau%20order%20layanan%20cuci%20sepatu" 
+  <a href="https://wa.me/6285715410979?text=Halo%20Admin%20Cuci%20Sepatu%20Cijantung,%20saya%20mau%20order%20layanan%20cuci%20sepatu/tas" 
      target="_blank" 
      rel="noopener noreferrer"
      class="pulse-gold fixed bottom-6 right-6 z-50 flex items-center gap-2.5 bg-gradient-to-r from-brand-gold to-brand-goldDark hover:from-brand-goldLight hover:to-brand-gold text-black font-extrabold py-3.5 px-6 rounded-full shadow-2xl transition duration-300 active:scale-95"
@@ -1536,15 +1298,15 @@
     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
       <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.79 14.07c-.24.68-1.39 1.32-1.93 1.37-.52.05-1.19.07-3.41-.83-2.68-1.08-4.4-3.83-4.54-4.01-.13-.19-1.08-1.44-1.08-2.75s.69-1.95.93-2.22c.24-.27.53-.34.71-.34.18 0 .36 0 .52.01.17.01.39-.06.61.47.23.54.78 1.9.85 2.04.07.14.11.3.02.48-.09.18-.14.29-.27.45-.14.15-.29.35-.41.47-.14.13-.28.28-.12.56.16.27.7 1.15 1.5 1.86 1.03.92 1.9 1.2 2.17 1.34.27.14.43.12.59-.07.16-.19.68-.79.86-1.06.18-.27.36-.23.6-.14.24.09 1.53.72 1.79.85.26.14.43.2.49.31.07.12.07.69-.17 1.37z"/>
     </svg>
-    <span class="text-xs uppercase tracking-wider font-extrabold">Chat WhatsApp</span>
+    <span class="text-xs uppercase tracking-wider font-extrabold">Free Pick Up WA</span>
   </a>
 
   <!-- ========================================================
-       14. JAVASCRIPT ANIMATIONS & INTERACTIONS
+       12. JAVASCRIPT ANIMATIONS & INTERACTIONS
   ======================================================== -->
   <script>
     // ----------------------------------------------------
-    // A. Captain Barbershop Scroll Reveal ([data-anim])
+    // A. Scroll Reveal ([data-anim])
     // ----------------------------------------------------
     const animElements = document.querySelectorAll('[data-anim]');
     if ('IntersectionObserver' in window) {
@@ -1685,31 +1447,7 @@
     });
 
     // ----------------------------------------------------
-    // D. Case Study / Hasil Pengerjaan Tabs
-    // ----------------------------------------------------
-    const caseBtns = document.querySelectorAll('.case-btn');
-    const casePanels = document.querySelectorAll('.case-panel');
-
-    caseBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const caseNum = btn.dataset.case;
-        caseBtns.forEach(b => {
-          b.className = 'case-btn px-5 py-2 rounded-full text-xs font-semibold text-slate-300 hover:text-white transition';
-        });
-        btn.className = 'case-btn active px-5 py-2 rounded-full text-xs font-bold transition bg-brand-gold text-black';
-
-        casePanels.forEach(panel => {
-          panel.classList.add('hidden');
-        });
-        const activePanel = document.getElementById(`case-panel-${caseNum}`);
-        if (activePanel) {
-          activePanel.classList.remove('hidden');
-        }
-      });
-    });
-
-    // ----------------------------------------------------
-    // E. FAQ Accordion Toggle
+    // D. FAQ Accordion Toggle
     // ----------------------------------------------------
     const faqButtons = document.querySelectorAll('.faq-toggle');
     faqButtons.forEach(button => {
@@ -1729,7 +1467,7 @@
     });
 
     // ----------------------------------------------------
-    // F. Mobile Navigation Toggle
+    // E. Mobile Navigation Toggle
     // ----------------------------------------------------
     const mobileMenuBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
